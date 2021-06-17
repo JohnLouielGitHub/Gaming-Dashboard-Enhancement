@@ -1,0 +1,50 @@
+.offcanvas-backdrop::before {
+  z-index: 1;
+}
+
+.side-menu-icon {
+  object-fit: none;
+  width: 40px;
+}
+
+#off-canvas-menu {
+  overflow-x: hidden;
+  z-index: 1;
+  .offcanvas {
+    background: #202026;
+  }
+
+  .offcanvas-start {
+    max-width: 295px;
+  }
+
+  .offcanvas-header {
+    z-index: 3;
+  }
+  .offcanvas-body {
+    z-index: 2;
+  }
+  .off-canvas-burger {
+    position: absolute;
+    top: 60px;
+    left: 0;
+  }
+}
+
+#side-menu {
+  position: fixed;
+  width: 295px;
+  background: #202026;
+  overflow: auto;
+
+  a:hover {
+    color: #fff;
+  }
+  li:hover {
+    background: #18181d;
+  }
+}
+
+.side-menu-content {
+  padding-left: 47px;
+}

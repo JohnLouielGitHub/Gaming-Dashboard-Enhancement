@@ -1,0 +1,265 @@
+#login .container{    
+    height:100vh;
+}
+#login .background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#login .bg-image { 
+    background-image: url("https://skut26.com/wp-content/uploads/2021/03/fb462cfc55c2fa522b65ee4c8a437164.jpg");
+    z-index: -1;  
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100%;  
+    
+  
+  }
+
+#login .row{
+    background-image: url("/public/img/login_img/game1.jpg");
+    border-radius: 15px;
+    height:95%;
+    animation: change 15s infinite ease-in-out;
+    
+ }
+
+ 
+ #login .inner{  
+    width: 90%;
+ }
+
+ @keyframes change{
+     0%
+     {
+         background-image: url("/public/img/login_img/game1.jpg");
+     }
+     20%
+     {
+         background-image: url("/public/img/login_img/game2.jpg");
+     }
+ 
+     60%
+     {
+         background-image: url("/public/img/login_img/game1.jpg");
+     }
+     100%
+     {
+         background-image: url("/public/img/login_img/game2.jpg");
+     }
+ }
+
+#login .col{
+    z-index:2;
+}
+
+#login .logo{
+    width:180px;
+}
+
+#login h2{
+    font-size: 18px;
+}
+
+#login a{
+    text-decoration:none!important;
+}
+
+#login a:hover{
+    text-decoration:underline!important;
+}
+
+#login input{
+    background-color: rgb(49, 51, 51)!important;
+    outline: none;
+    border:none;
+}
+
+#login .overlay{
+    background:rgba(0,0,0, 0.6)!important;
+    z-index: 0;
+    left:0;
+    border-radius: 15px;
+}
+
+#login .bottom .btn-primary{
+    background: transparent;
+    width: calc(100% / 3 - 1.5%);
+    padding:0;
+}
+
+
+
+#login .social-btns .facebook,
+#login .social-btns .google
+
+{
+    background: rgb(95, 95, 95);
+    padding: 5px !important;;
+}
+
+#login .social-btns .facebook:hover{
+    background: #3d578f!important;
+}
+
+#login .social-btns .google:hover{
+    background: #bf3b31;
+}
+
+#login .social-btns .twitter:hover{
+    background: #2eb7e5!important;;
+}
+
+#login button img{
+    width:30px;
+}
+#login .social-btns .twitter{
+    background: rgb(95, 95, 95);
+    padding: 0 !important;
+}
+#login .twitter-icon{
+    width:41px;
+}
+
+@media screen and (min-width: 768px){
+    #login .container{
+       width:700px;
+       font-size: 20px!important;
+    }
+    #login .row{
+       
+        height: 90%!important;
+    }
+    #login .logo{
+        width:250px;
+    }
+    #login .inner{  
+        width: 80%;
+        height: 90%;
+    }
+    #login input{
+        height: 45px !important;
+        color: rgb(218, 221, 221) !important;
+        font-size: 25px!important;
+    }
+    #login label,
+    #login button{
+        font-size: 25px!important;
+    }
+    #login .bottom .btn-primary{
+        padding: 10px 0px;
+    }
+}
+@media screen and (min-width: 992px){
+   
+}
+@media screen and (min-width: 1200px){
+    #login .container{
+        width: 95% !important;
+    }
+    #login h1{
+        font-weight: 900;
+    }
+    #login span.logo{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #login span.top{
+        display: inline-block;
+        width: 100%; 
+    }
+    #login span.color{
+        display: inline-block;
+        color:#0B5ED7;
+    }
+
+    #login .right-text{
+       background-image: url("/public/img/login_img/game1.jpg");
+        animation: change 25s infinite ease-in-out;
+       
+    }
+    #login .bottom .btn-primary{
+        padding:5px 0!important;
+    }
+    @keyframes change{
+        0%
+        {
+            background-image: url("/public/img/login_img/game1.jpg");
+        }
+        20%
+        {
+            background-image: url("/public/img/login_img/game2.jpg");
+        }
+        40%
+        {
+            background-image: url("/public/img/login_img/game1.jpg");
+        }
+    
+        60%
+        {
+            background-image: url("/public/img/login_img/game2.jpg");
+        }
+        80%
+        {
+            background-image: url("/public/img/login_img/game1.jpg");
+        }
+        100%
+        {
+            background-image: url("/public/img/login_img/game2.jpg");
+        }
+    }
+    #login .overlay2{
+        background:rgba(0,0,0, 0.3)!important;
+        z-index: 0;
+        left:0;
+        border-radius: 15px 0 0 15px;
+    }
+    #login .right-text-content{
+        z-index: 1;
+    }
+    
+
+    #login .inner{
+        height: 75% !important;
+        width: 100%!important;  
+    }
+    #login .row{
+        height: 95% !important;
+        font-size: 16px!important;
+        background: rgb(46, 46, 46)!important;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0, 2.8);
+    }
+    #login .row .col-xl-6.right-text{
+        border-radius: 15px 0 0 15px;
+    }
+    #login .overlay2{
+        background:rgba(0,0,0, 0.3)!important;
+        z-index: 0;
+        left:0;
+        border-radius: 15px 0 0 15px;
+    }
+    #login button,
+    #login label,
+    #login input{
+        font-size: 16px!important;
+    }
+    #login .inner{
+        height: 80% !important;
+        width: 85%!important;  
+    }
+    #login .logo{
+        width:200px;
+    }
+    
+}
+@media screen and (min-width: 1400px){
+    
+    #login .logo{
+        width:250px;
+    }
+    #login .inner{
+        height: 85% !important;
+        width: 85%!important;  
+    }
+}

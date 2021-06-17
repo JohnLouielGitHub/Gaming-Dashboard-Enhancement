@@ -1,0 +1,20 @@
+.leading-teams{
+    border: 2px solid red;
+}
+.leading-teams:nth-child(1){
+    background-image: url(https://img.freepik.com/free-vector/assasin-esport-logo_9244-23.jpg?size=338&ext=jpg);
+}
+.leading-teams:nth-child(2){
+    background-image: url(https://i.pinimg.com/736x/10/0d/d0/100dd01ca7d81dde1f24975d6aaf46b8.jpg);
+}
+.leading-teams:nth-child(3){
+    background-image: url(https://i.pinimg.com/736x/c6/fb/c5/c6fbc556e99fe9ea7281d1c37366eea2.jpg);
+}
+.teams .row{
+    border: 2px solid green;
+}
+.teams .col{
+    background: pink;
+
+}
+

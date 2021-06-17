@@ -1,0 +1,315 @@
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background: #18181d;
+  color: $light;
+}
+
+input {
+  outline: 0;
+  color: #fff;
+}
+
+* a {
+  color: $light;
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dummy-box {
+  width: 100%;
+  min-height: 240px;
+  border: 1px solid black;
+  background-color: aquamarine;
+}
+
+.dummy-box-1 {
+  width: 100%;
+  min-height: 50px;
+  border: 1px solid black;
+  background-color: rgb(161, 127, 255);
+}
+
+#dashboard {
+  width: 100vw;
+}
+@media screen and (min-width: 1200px) {
+  #dashboard {
+    width: calc(100vw - 295px);
+  }
+}
+
+#widgets {
+  height: 100%;
+}
+
+.side-menu-content {
+  padding-left: 47px;
+}
+
+.upgrade-box {
+  margin-top: 75px;
+  background-color: #36363c;
+  max-width: 179px;
+  width: 100%;
+  border: none;
+  border-radius: 1rem;
+
+  h3 {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 13px;
+  }
+  .upgrade-text {
+    // max-width: 103px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 22px;
+  }
+
+  button {
+    font-size: 12px;
+    line-height: 12px;
+    border-radius: 1rem;
+    color: #0a043c;
+  }
+}
+
+.search-bar-input {
+  border: 1px solid #2c2c2c;
+}
+
+.search-icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 16px;
+  height: 16px;
+  right: 5% !important;
+}
+
+.video {
+  position: relative;
+}
+
+.featured-game {
+  bottom: 48px;
+  position: absolute;
+  background: #36363c9d;
+}
+
+.featured-game-title {
+  font-size: 18px;
+}
+
+.featured-game-desc {
+  font-size: 10px;
+}
+
+.video-player {
+  max-height: 345px;
+  background: #36363c;
+  border-radius: 1rem;
+}
+
+.video-player + .featured-game {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+.video-player:hover + .featured-game,
+.featured-game:hover {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.3s, opacity 0.5s linear;
+}
+
+.cards {
+  background: #202026, 100%;
+  min-height: 50px;
+}
+
+.card-head {
+  font-size: 18px;
+}
+
+.card-image-1 {
+  background-image: url(https://image.api.playstation.com/cdn/EP0001/CUSA11560_00/oErpzTMuDsXCGPqMbr11PTfTXhVSk8zX.png);
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+}
+
+.card-image-2 {
+  background-image: url(https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/pub_660_190121023424.jpg);
+  background-size: cover;
+  background-position: center center;
+  min-height: 300px;
+}
+
+.card-content {
+  background-color: #36363c83;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.card-games {
+  background-color: #36363c;
+  border-radius: 1rem;
+
+  span {
+    font-size: 12px;
+  }
+
+  .card-description {
+    font-size: 10px;
+  }
+}
+
+// Notification Advancement
+.notification-advancement {
+  border-radius: 1rem;
+  background: #202026;
+
+  .btn {
+    font-size: 14px;
+  }
+}
+
+.notif-container {
+  max-width: 393px;
+}
+
+.notif-title {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.notif-subtitle {
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-position: center center;
+  object-fit: contain;
+  width: 40px;
+}
+
+@media (min-width: 992px) {
+  .logo {
+    width: 60px;
+  }
+
+  .notif-title {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+
+  .notif-subtitle {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+  }
+}
+
+//recent-games & notification menu
+.recent-games,
+.notification-menu,
+.game-preview {
+  background: #202026;
+  border-radius: 1rem;
+  padding: 30px;
+}
+
+.claim-btn {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.notification-menu-head {
+  margin-bottom: 48px;
+}
+
+.notif {
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+  }
+
+  .time {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #9090a4;
+  }
+
+  .kebab {
+    background-color: #23232c;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+  }
+}
+
+.recent-games-head {
+  font-size: 18px;
+}
+
+.game {
+  margin-top: 30px;
+}
+
+.game-preview {
+  background: #36363c;
+  background-position: center;
+  background-repeat: repeat;
+  object-fit: cover;
+  border: none;
+  padding: 0;
+  width: 60px;
+  height: 60px;
+}
+
+.game-info {
+  margin-left: 9px;
+}
+
+.game-title {
+  font-size: 18px;
+}
+
+.notif-view-all,
+.version {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+  color: #a0a0a0;
+}
