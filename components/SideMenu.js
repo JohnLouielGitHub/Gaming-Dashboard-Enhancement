@@ -1,6 +1,23 @@
 import Link from "next/link";
+import Script from "next/script";
+import {useRouter} from "next/router";
 
 function SideMenu() {
+
+const router = useRouter();
+
+const isActiveMenu = "active";
+
+const notActiveMenu = "";
+      let isActive = (x) => {
+    if(x === router.pathname)
+    {
+      return isActiveMenu;
+    } else {
+      return notActiveMenu;
+    }
+  };
+
   return (
     <>
       <div id="off-canvas-menu" className="position-fixed">
@@ -22,27 +39,27 @@ function SideMenu() {
             <aside id="side-menu">
               <div className="d-flex justify-content-center">
                 <div className="side-menu-content w-100">
-                  <h1 className="text-white">Store.</h1>
+                  <img src="img/login_img/game-logo.png" alt="duelist logo"/>
                   <ul className="list-unstyled">
-                    <Link href="/dashboard">
-                      <a>
+                    <Link href="/featured">
+                      <a className={`d-block ${isActive("/featured")}`}>
                         <li id="side-menu-icon-home" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Dashboard.png"
-                            alt="dashboard-icon.png"
+                            src="img/Dashboard.svg"
+                            alt="dashboard-icon.svg"
                           />
-                          Dashboard
+                          Featured
                         </li>
                       </a>
                     </Link>
                     <Link href="/live">
-                      <a>
+                      <a className={`d-block ${isActive("/live")}`}>
                         <li id="side-menu-icon-live" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Live.png"
-                            alt="live-icon.png"
+                            src="img/Live.svg"
+                            alt="live-icon.svg"
                           />
                           Live
                         </li>
@@ -50,12 +67,12 @@ function SideMenu() {
                     </Link>
 
                     <Link href="/videos">
-                      <a>
+                      <a className={`d-block ${isActive("/videos")}`}>
                         <li id="side-menu-icon-videos" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Videos.png"
-                            alt="videos-icon.png"
+                            src="img/Videos.svg"
+                            alt="videos-icon.svg"
                           />
                           Videos
                         </li>
@@ -63,38 +80,38 @@ function SideMenu() {
                     </Link>
 
                     <Link href="/teams">
-                      <a>
+                      <a className={`d-block ${isActive("/teams")}`}>
                         <li id="side-menu-icon-teams" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Teams.png"
-                            alt="teams-icon.png"
+                            src="img/Teams.svg"
+                            alt="teams-icon.svg"
                           />
                           Teams
                         </li>
                       </a>
                     </Link>
 
-                    <Link href="/featured">
-                      <a>
+                    <Link href="/recent">
+                      <a className={`d-block ${isActive("/recent")}`}>
                         <li id="side-menu-icon-featured" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Featured.png"
-                            alt="featured-icon.png"
+                            src="img/Featured.svg"
+                            alt="featured-icon.svg"
                           />
-                          Featured
+                          Recent
                         </li>
                       </a>
                     </Link>
 
                     <Link href="/settings">
-                      <a>
+                      <a className={`d-block ${isActive("/settings")}`}>
                         <li id="side-menu-icon-setting" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Setting.png"
-                            alt="setting-icon.png"
+                            src="img/Setting.svg"
+                            alt="setting-icon.svg"
                           />
                           Setting
                         </li>
@@ -107,7 +124,7 @@ function SideMenu() {
                           <img
                             className="side-menu-icon me-2"
                             src="img/logout.png"
-                            alt="logout-1324760598547500271.png"
+                            alt="logout-1324760598547500271.svg"
                           />
                           Logout
                         </li>
@@ -133,27 +150,27 @@ function SideMenu() {
 
       <aside id="side-menu" className="vh-100 position-fixed d-none d-xl-block">
         <div className="side-menu-content w-100 pt-60">
-          <h1 className="text-white">Store.</h1>
+        <img className="w-75" src="img/login_img/game-logo.png" alt="duelist logo"/>
           <ul className="list-unstyled">
-            <Link href="/dashboard">
-              <a>
-                <li id="side-menu-icon-home" className="p-2">
+            <Link href="/featured">
+              <a className={`d-block ${isActive("/featured")}`}>
+                <li id="side-menu-icon-home-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Dashboard.png"
-                    alt="dashboard-icon.png"
+                    src="img/Dashboard.svg"
+                    alt="dashboard-icon.svg"
                   />
-                  Dashboard
+                  Featured
                 </li>
               </a>
             </Link>
             <Link href="/live">
-              <a>
-                <li id="side-menu-icon-live" className="p-2">
+              <a className={`d-block ${isActive("/live")}`}>
+                <li id="side-menu-icon-live-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Live.png"
-                    alt="live-icon.png"
+                    src="img/Live.svg"
+                    alt="live-icon.svg"
                   />
                   Live
                 </li>
@@ -161,12 +178,12 @@ function SideMenu() {
             </Link>
 
             <Link href="/videos">
-              <a>
-                <li id="side-menu-icon-videos" className="p-2">
+              <a className={`d-block ${isActive("/videos")}`}>
+                <li id="side-menu-icon-videos-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Videos.png"
-                    alt="videos-icon.png"
+                    src="img/Videos.svg"
+                    alt="videos-icon.svg"
                   />
                   Videos
                 </li>
@@ -174,38 +191,38 @@ function SideMenu() {
             </Link>
 
             <Link href="/teams">
-              <a>
-                <li id="side-menu-icon-teams" className="p-2">
+              <a className={`d-block ${isActive("/teams")}`}>
+                <li id="side-menu-icon-teams-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Teams.png"
-                    alt="teams-icon.png"
+                    src="img/Teams.svg"
+                    alt="teams-icon.svg"
                   />
                   Teams
                 </li>
               </a>
             </Link>
 
-            <Link href="/featured">
-              <a>
-                <li id="side-menu-icon-featured" className="p-2">
+            <Link href="/recent">
+              <a className={`d-block ${isActive("/recent")}`}>
+                <li id="side-menu-icon-featured-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Featured.png"
-                    alt="featured-icon.png"
+                    src="img/Featured.svg"
+                    alt="featured-icon.svg"
                   />
-                  Featured
+                  Recent
                 </li>
               </a>
             </Link>
 
             <Link href="/settings">
-              <a>
-                <li id="side-menu-icon-setting" className="p-2">
+              <a className={`d-block ${isActive("/settings")}`}>
+                <li id="side-menu-icon-setting-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Setting.png"
-                    alt="setting-icon.png"
+                    src="img/Setting.svg"
+                    alt="setting-icon.svg"
                   />
                   Setting
                 </li>
@@ -235,6 +252,7 @@ function SideMenu() {
           </div>
         </div>
       </aside>
+      
     </>
   );
 }

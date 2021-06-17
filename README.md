@@ -16,8 +16,8 @@ https://crischoy23.github.io/DUELIST/
 
 - John Louiel Tamargo
 <p align="left">
-<a href = "https://www.linkedin.com/in/crispina-choy-awon-564421210"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
-<a href = "https://github.com/crischoy23/"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
+<a href = "https://www.linkedin.com/in/john-louiel-tamargo-62a035214"><img src="https://img.icons8.com/fluent/48/000000/linkedin.png"/></a>
+<a href = "https://github.com/JohnLouielGitHub"><img src="https://img.icons8.com/fluent/48/000000/github.png"/></a>
 </p>
 - Jhon Rey Mendiola
 <p align="left">

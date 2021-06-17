@@ -53,7 +53,7 @@ input {
 
 .upgrade-box {
   margin-top: 75px;
-  background-color: #36363c;
+  background-color: $dark;
   max-width: 179px;
   width: 100%;
   border: none;
@@ -65,7 +65,6 @@ input {
     margin-bottom: 13px;
   }
   .upgrade-text {
-    // max-width: 103px;
     width: 100%;
     font-size: 12px;
     line-height: 16px;
@@ -76,12 +75,12 @@ input {
     font-size: 12px;
     line-height: 12px;
     border-radius: 1rem;
-    color: #0a043c;
+    color: $darker;
   }
 }
 
 .search-bar-input {
-  border: 1px solid #2c2c2c;
+  border: 1px solid $dark;
 }
 
 .search-icon {
@@ -99,7 +98,7 @@ input {
 .featured-game {
   bottom: 48px;
   position: absolute;
-  background: #36363c9d;
+  background: rgba($dark, 0.616);
 }
 
 .featured-game-title {
@@ -112,7 +111,7 @@ input {
 
 .video-player {
   max-height: 345px;
-  background: #36363c;
+  background: $dark;
   border-radius: 1rem;
 }
 
@@ -153,13 +152,13 @@ input {
 }
 
 .card-content {
-  background-color: #36363c83;
+  background-color: rgba($dark, 0.514);
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 
 .card-games {
-  background-color: #36363c;
+  background-color: $dark;
   border-radius: 1rem;
 
   span {

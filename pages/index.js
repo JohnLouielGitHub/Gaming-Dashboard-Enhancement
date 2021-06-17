@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Index() {
   return (
     <>
@@ -190,12 +192,12 @@ function Index() {
                   </div>
                   <div className="text-center mb-2 text-white-50">
                     Don't have an account?
-                    <a
-                      href="#"
-                      className="register-link login_a text-decoration-none"
-                    >
+                    <Link href="/register">
+                    <a  className="register-link login_a text-decoration-none">
                       Register here
                     </a>
+                    </Link>
+
                   </div>
                 </div>
               </form>

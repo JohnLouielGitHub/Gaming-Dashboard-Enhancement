@@ -7,14 +7,12 @@ $danger: #d62518;
 $light: #f8f9fa;
 $dark: #343a40;
 $darker: #202026;
-$maroon: #701c1c;
 $faded-blue: #64d7d7;
 $gold: #ffd900;
 $pink: #f55771;
 $active: #18181d;
 
 $theme-colors: (
-  "maroon": $maroon,
   "primary": $primary,
   "secondary": $secondary,
   "success": $success,
@@ -119,7 +117,11 @@ $theme-colors: (
 @import "extra-utilities";
 @import "sidemenu";
 @import "live";
-// @import "simplebar/dist/simplebar.css";
 @import "teams";
 @import "login";
 @import "videos";
+@import "register";
+
+.active {
+  background-color: #18181d;
+}

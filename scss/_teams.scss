@@ -123,7 +123,7 @@ tr {
   padding: 3px 15px;
 }
 .teams .live_btn {
-  background: linear-gradient(-45deg, #e42222, #eb5a35, #e42222, #c02600);
+  background: linear-gradient(-45deg, #b30404, #8b1c00, #a50101, #9b2103);
   background-size: 400% 400%;
   animation: gradient 5s ease infinite;
 }
@@ -154,7 +154,7 @@ tr {
 }
 
 .table-container {
-  padding: 23px !important;
+  padding: 0 23px !important;
 }
 tr {
   color: rgb(204, 203, 203);
@@ -167,6 +167,9 @@ table .live-table {
 }
 .live_logo {
   width: 50px;
+}
+.flag {
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 768px) {

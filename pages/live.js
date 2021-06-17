@@ -1,11 +1,15 @@
 import Link from "next/link";
-
+import Script from "next/script";
+import {useRouter} from "next/router";
+import SimpleBarReact from "simplebar-react";
+import "simplebar/src/simplebar.css";
 function Live() {
   return (
     <>
       {" "}
       <main id="dashboard" className="vh-100 pt-4 ps-2 pe-2 pe-lg-0 ms-auto">
-        <section id="widgets" data-simplebar="true">
+      <SimpleBarReact forceVisible="y" autoHide={false} className="h-100">
+        <section id="widgets">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-8">
@@ -29,7 +33,7 @@ function Live() {
                           border-outline border
                           rounded-circle
                         "
-                            src="img/Dashboard.png"
+                            src="img/user-logo.png"
                             alt="user-logo.png"
                           />
 
@@ -260,6 +264,7 @@ function Live() {
             </div>
           </div>
         </section>
+        </SimpleBarReact>
       </main>{" "}
     </>
   );
