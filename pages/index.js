@@ -85,7 +85,7 @@ function Index() {
 
                   <div className="mb-3 mb-md-4 mb-xl-2 mb-xxl-4">
                     <label
-                      for="exampleInputPassword1"
+                      htmlFor="exampleInputPassword1"
                       className="form-label text-white"
                     >
                       <span className="me-1">

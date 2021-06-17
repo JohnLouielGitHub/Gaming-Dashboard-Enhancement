@@ -1,10 +1,18 @@
 import Link from "next/link";
 
+import Script from 'next/script'
+
+import SimpleBarReact from "simplebar-react";
+
+import "simplebar/src/simplebar.css";
+
 function Dashboard() {
   return (
     <>
+
       <main id="dashboard" className="vh-100 pt-4 ps-2 pe-2 pe-lg-0 ms-auto">
-        <section id="widgets" data-simplebar="true">
+      <SimpleBarReact forceVisible="y" autoHide={false} className="h-100">
+      <section id="widgets" data-simplebar="true">
           <div className="container-fluid">
             <div className="row">
               <div className="col-md-8">
@@ -136,9 +144,8 @@ function Dashboard() {
               </div>
               <div className="col-md-4">
                 <div
-                  id="scroller"
-                  data-simplebar
-                  data-simplebar-auto-hide="true"
+                  
+
                 >
                   <div className="recent-games mt-4 mt-md-0">
                     <div className="d-flex justify-content-between">
@@ -324,7 +331,12 @@ function Dashboard() {
             </div>
           </div>
         </section>
+      </SimpleBarReact>
+        
       </main>
+      <Script>
+      console.log("Hello world");
+     </Script>
     </>
   );
 }

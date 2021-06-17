@@ -6,7 +6,7 @@ function SideMenu() {
       <div id="off-canvas-menu" className="position-fixed">
         <div
           className="offcanvas offcanvas-start"
-          tabindex="-1"
+          tabIndex="-1"
           id="offcanvasExample"
           aria-labelledby="offcanvasExampleLabel"
         >
@@ -24,7 +24,7 @@ function SideMenu() {
                 <div className="side-menu-content w-100">
                   <h1 className="text-white">Store.</h1>
                   <ul className="list-unstyled">
-                    <Link href="/">
+                    <Link href="/dashboard">
                       <a>
                         <li id="side-menu-icon-home" className="p-2">
                           <img
@@ -101,7 +101,7 @@ function SideMenu() {
                       </a>
                     </Link>
 
-                    <Link href="/login">
+                    <Link href="/">
                       <a>
                         <li className="p-2">
                           <img
@@ -135,7 +135,7 @@ function SideMenu() {
         <div className="side-menu-content w-100 pt-60">
           <h1 className="text-white">Store.</h1>
           <ul className="list-unstyled">
-            <Link href="/">
+            <Link href="/dashboard">
               <a>
                 <li id="side-menu-icon-home" className="p-2">
                   <img
@@ -212,7 +212,7 @@ function SideMenu() {
               </a>
             </Link>
 
-            <Link href="/login">
+            <Link href="/">
               <a>
                 <li className="p-2">
                   <img

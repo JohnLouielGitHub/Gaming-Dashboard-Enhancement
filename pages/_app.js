@@ -5,7 +5,7 @@ import Auth from "../components/layouts/Auth";
 function MyApp({ Component, pageProps, router }) {
   if (
     router.pathname.startsWith("/dashboard") ||
-    router.pathname.startsWith("/live")
+    router.pathname.startsWith("/live") || router.pathname.startsWith("/teams")
   ) {
     return (
       <Layout>
