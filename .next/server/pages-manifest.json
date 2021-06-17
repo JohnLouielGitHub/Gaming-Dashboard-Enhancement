@@ -2,6 +2,6 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
-  "/live": "pages/live.js",
-  "/teams": "pages/teams.js"
+  "/teams": "pages/teams.js",
+  "/featured": "pages/featured.js"
 }

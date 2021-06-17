@@ -1,184 +1,38 @@
-.teams h2 {
-  line-height: 50px;
-  font-size: 18px;
+.carousel {
+  height: 300px;
+  background: coral;
 }
-.dota-main-logo {
-  width: 250px;
-}
-img {
+.carousel img {
+  height: 100%;
+  height: 300px;
   object-fit: cover;
 }
-.col,
-.dummy-box {
-  background: transparent !important;
+.team-sm-box {
+  height: 200px;
+  max-height: 200px;
+  background: rgb(70, 70, 71);
 }
-.teams-box-header {
-  height: 50px;
-  background: #202026;
-  padding: 0 24px;
-  border-bottom: 1px solid rgba(128, 128, 128, 0.418);
-  border-radius: 12px 12px 0 0;
+.team-name {
+  font-size: 20px;
 }
-
-//Leading Teams
-.leading-teams,
-.match-box {
-  min-height: 300px;
-  border: 1px solid rgba(192, 191, 191, 0.274);
-}
-.leading-teams_content {
-  padding: 0 10px;
-}
-
-.bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.first {
-  background-image: url(https://img.freepik.com/free-vector/assasin-esport-logo_9244-23.jpg?size=338&ext=jpg);
-}
-.second {
-  background-image: url(https://i.pinimg.com/736x/10/0d/d0/100dd01ca7d81dde1f24975d6aaf46b8.jpg);
-}
-.third {
-  background-image: url(https://i.pinimg.com/736x/c6/fb/c5/c6fbc556e99fe9ea7281d1c37366eea2.jpg);
-}
-.teams .row {
-  overflow: hidden;
-}
-
-.circle-div {
-  border-radius: 50%;
-  border: 2px solid rgb(53, 52, 52);
-  height: 30px;
-  width: 30px;
-  overflow: hidden;
-}
-.circle-div:not(:nth-child(1)) {
-  margin-left: -7px;
-}
-.circle-div img {
-  height: 30px;
-  width: 30px;
-}
-.teams .leading-teams_overlay {
-  background: rgba(0, 0, 0, 0.2);
+.overlay {
+  background: rgba(0, 0, 0, 0.4) !important;
   z-index: 0;
 }
-.leading-teams_content {
-  z-index: 2;
-}
-button.design {
-  background: transparent;
-  width: 87px;
-  height: 36px;
-  border-radius: 24px;
-  font-size: 12px;
-  padding: 10px 24px;
-  line-height: 0;
-  border: 1px solid #999999;
-  color: white;
-}
-.leading-teams_icons {
-  bottom: 15px;
-  padding-right: 15px;
-}
-
-//Tournaments
-.bottom-row .col {
-  max-height: 350px;
-  overflow: hidden;
-}
-
-.teams .dummy-box {
-  width: 100%;
-  overflow: hidden;
-  height: 100%;
-  border: 0;
-  border-radius: 0 0 12px 12px !important;
-  padding-bottom: 20px !important;
-}
-#scroller {
-  height: 100%;
-  max-width: 100%;
-  background: #202026;
-  padding-bottom: 20px !important;
-}
-tr {
-  color: rgb(204, 203, 203);
-}
-.teams button.tournament_btn {
-  background-color: rgb(10, 159, 228) !important;
-
-  border-radius: 2px;
-  font-weight: 500;
-  font-size: 13px;
-  padding: 5px 15px;
-}
-.teams .live_btn {
-  margin-top: 12px;
-  border-radius: 5px;
-  font-size: 12px;
-  padding: 3px 15px;
-}
-.teams .live_btn {
-  background: linear-gradient(-45deg, #b30404, #8b1c00, #a50101, #9b2103);
-  background-size: 400% 400%;
-  animation: gradient 5s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-.teams th .banner {
-  max-width: 150px;
-  min-width: 100%;
-  height: 50px;
-  object-fit: cover;
-}
-.teams img.flag {
-  width: 25px !important;
-}
-.teams img.live_icon {
-  width: 50px !important;
-  height: 50px !important;
-}
-
-.table-container {
-  padding: 0 23px !important;
-}
-tr {
-  color: rgb(204, 203, 203);
-}
-.table-text {
-  font-size: 14px;
-}
-table .live-table {
-  border: blue !important;
-}
-.live_logo {
-  width: 50px;
-}
 .flag {
-  margin-right: 10px;
+  width: 30px;
+  height: 20px;
+  bottom: 10px;
+  right: 10px;
+  z-index: 1;
+}
+
+.right-menu {
+  height: 100vh;
+  background: darksalmon;
 }
 
 @media screen and (min-width: 768px) {
-  .leading-teams {
-    width: 33.33% !important;
-  }
 }
 @media screen and (min-width: 992px) {
-  .bottom-row {
-    height: 400px;
-  }
 }

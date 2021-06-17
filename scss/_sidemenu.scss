@@ -1,5 +1,5 @@
 .offcanvas-backdrop::before {
-  z-index: 1;
+  z-index: 10000;
 }
 
 .side-menu-icon {
@@ -9,7 +9,7 @@
 
 #off-canvas-menu {
   overflow-x: hidden;
-  z-index: 1;
+  z-index: 10000;
   .offcanvas {
     background: #202026;
   }
@@ -19,10 +19,10 @@
   }
 
   .offcanvas-header {
-    z-index: 3;
+    z-index: 3000;
   }
   .offcanvas-body {
-    z-index: 2;
+    z-index: 2000;
   }
   .off-canvas-burger {
     position: absolute;

@@ -1,17 +1,15 @@
 import Link from "next/link";
 import Script from "next/script";
-import {useRouter} from "next/router";
+import { useRouter } from "next/router";
 
 function SideMenu() {
+  const router = useRouter();
 
-const router = useRouter();
+  const isActiveMenu = "active";
 
-const isActiveMenu = "active";
-
-const notActiveMenu = "";
-      let isActive = (x) => {
-    if(x === router.pathname)
-    {
+  const notActiveMenu = "";
+  let isActive = (x) => {
+    if (x === router.pathname) {
       return isActiveMenu;
     } else {
       return notActiveMenu;
@@ -36,10 +34,13 @@ const notActiveMenu = "";
             ></button>
           </div>
           <div className="offcanvas-body p-0">
-            <aside id="side-menu">
+            <aside
+              id="side-menu"
+              className="vh-100 position-fixed d-none d-xl-block"
+            >
               <div className="d-flex justify-content-center">
                 <div className="side-menu-content w-100">
-                  <img src="img/login_img/game-logo.png" alt="duelist logo"/>
+                  <img src="img/login_img/game-logo.png" alt="duelist logo" />
                   <ul className="list-unstyled">
                     <Link href="/featured">
                       <a className={`d-block ${isActive("/featured")}`}>
@@ -150,7 +151,11 @@ const notActiveMenu = "";
 
       <aside id="side-menu" className="vh-100 position-fixed d-none d-xl-block">
         <div className="side-menu-content w-100 pt-60">
-        <img className="w-75" src="img/login_img/game-logo.png" alt="duelist logo"/>
+          <img
+            className="w-75"
+            src="img/login_img/game-logo.png"
+            alt="duelist logo"
+          />
           <ul className="list-unstyled">
             <Link href="/featured">
               <a className={`d-block ${isActive("/featured")}`}>
@@ -252,7 +257,6 @@ const notActiveMenu = "";
           </div>
         </div>
       </aside>
-      
     </>
   );
 }
