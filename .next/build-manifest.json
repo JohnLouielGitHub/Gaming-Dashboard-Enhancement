@@ -29,10 +29,30 @@
       "static/chunks/main.js",
       "static/chunks/pages/featured.js"
     ],
+    "/live": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/live.js"
+    ],
+    "/next/dist/pages/_error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/next/dist/pages/_error.js"
+    ],
+    "/recent": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/recent.js"
+    ],
     "/teams": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/teams.js"
+    ],
+    "/videos": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/videos.js"
     ]
   },
   "ampFirstPages": []

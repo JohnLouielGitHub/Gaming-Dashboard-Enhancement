@@ -11,7 +11,7 @@
   overflow-x: hidden;
   z-index: 10000;
   .offcanvas {
-    background: #202026;
+    background: $CARD-lINEAR;
   }
 
   .offcanvas-start {
@@ -34,14 +34,14 @@
 #side-menu {
   position: fixed;
   width: 295px;
-  background: #202026;
+  background: $CARD-lINEAR;
   overflow: auto;
 
   a:hover {
     color: #fff;
   }
   li:hover {
-    background: #18181d;
+    background: $main-background;
   }
 }
 

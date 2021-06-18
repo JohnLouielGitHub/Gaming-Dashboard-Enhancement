@@ -19,8 +19,8 @@ function SideMenu() {
   return (
     <>
       <div id="off-canvas-menu" className="position-fixed">
-        <div
-          className="offcanvas offcanvas-start"
+          <div
+            className="offcanvas offcanvas-start"
           tabIndex="-1"
           id="offcanvasExample"
           aria-labelledby="offcanvasExampleLabel"
@@ -132,17 +132,15 @@ function SideMenu() {
                       </a>
                     </Link>
                   </ul>
-                  <div className="upgrade-box w-100 p-4 text-center">
-                    <h3>Upgrade Version</h3>
-                    <div className="upgrade-text">
-                      <p>Upgrade now for game interest</p>
-                    </div>
+                  <div className="upgrade-box w-100 px-3 py-4 text-center">
+            <h3>Upgrade to Premium</h3>
+            <div className="upgrade-text">
+              <p>Upgrade now and get exclusive awawrds!</p>
+            </div>
 
-                    <button className="btn btn-light ps-3 pe-3">
-                      Upgrade Now
-                    </button>
-                  </div>
-                </div>
+            <button className="btn btn-gold text-dark ps-3 pe-3">Get Premium now!</button>
+          </div>
+         </div>
               </div>
             </aside>
           </div>
@@ -247,13 +245,13 @@ function SideMenu() {
               </a>
             </Link>
           </ul>
-          <div className="upgrade-box w-100 p-4 text-center">
-            <h3>Upgrade Version</h3>
+          <div className="upgrade-box w-100 px-3 py-4 border-sp bg-main text-center">
+            <h3>Upgrade to Premium</h3>
             <div className="upgrade-text">
-              <p>Upgrade now for game interest</p>
+              <p>Upgrade now and get exclusive awawrds!</p>
             </div>
 
-            <button className="btn btn-light ps-3 pe-3">Upgrade Now</button>
+            <button className="btn btn-premium bg-gold text-dark ps-3 pe-3">Get Premium now!</button>
           </div>
         </div>
       </aside>

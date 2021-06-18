@@ -1,5 +1,5 @@
 .live__chat {
-  background-color: $darker;
+  background-color: $info;
   border-radius: 1rem;
 }
 
@@ -18,7 +18,7 @@
 .live__form-control {
   input,
   button {
-    background-color: $darker;
+    background-color: $info;
     border: none;
     border-radius: 0.5rem;
   }
@@ -37,4 +37,29 @@
 
 .live__subtitle {
   border-bottom: 1px solid $light;
+}
+
+.live__live-match-team {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+}
+
+.live__teams {
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+
+.live__chat-message-container {
+  top: 72px;
+  left: 0;
+}
+
+.live__chat-user-msg {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 0;
 }
