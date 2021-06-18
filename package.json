@@ -1,7 +1,6 @@
 {
   "name": "next",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
@@ -19,5 +18,15 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "sass": "~1.32.13"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnLouielGitHub/duelist-next-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JohnLouielGitHub/duelist-next-project/issues"
+  },
+  "homepage": "https://github.com/JohnLouielGitHub/duelist-next-project#readme",
+  "description": ""
 }

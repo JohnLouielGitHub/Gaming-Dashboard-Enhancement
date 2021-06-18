@@ -1,20 +1,76 @@
-.leading-teams{
-    border: 2px solid red;
-}
-.leading-teams:nth-child(1){
-    background-image: url(https://img.freepik.com/free-vector/assasin-esport-logo_9244-23.jpg?size=338&ext=jpg);
-}
-.leading-teams:nth-child(2){
-    background-image: url(https://i.pinimg.com/736x/10/0d/d0/100dd01ca7d81dde1f24975d6aaf46b8.jpg);
-}
-.leading-teams:nth-child(3){
-    background-image: url(https://i.pinimg.com/736x/c6/fb/c5/c6fbc556e99fe9ea7281d1c37366eea2.jpg);
-}
-.teams .row{
-    border: 2px solid green;
-}
-.teams .col{
-    background: pink;
 
+
+#dashboard.teams{
+  min-height:100vh!important;
+  background: #15153a;
 }
 
+.carousel {
+    height: 300px;
+    background:linear-gradient(#4D4F95, #2B2D66);
+  }
+  .carousel img {
+    height: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  .teams-h1{
+    font-size: 30px;
+  }
+  .team-sm-box {
+    height: 150px;
+    max-height: 200px;
+    background: linear-gradient(#4D4F95, #2B2D66);
+    border-radius: 4px;
+    border: 2px solid rgba(255, 255, 255, 0.0782099);
+    box-shadow: 0px 24px 48px rgba(0, 1, 44, 0.486);
+  }
+  .team-name {
+    font-size: 20px;
+  }
+  .overlay {
+    background: rgba(0, 0, 0, 0.1) !important;
+    z-index: 0;
+  }
+  .flag {
+    width: 30px;
+    height: 20px;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .right-menu {
+    height: 100vh;
+    background: linear-gradient(#4D4F95, #2B2D66);
+  }
+  .right-menu-main{
+    border-bottom: 1px solid #E6606C;
+    padding-bottom: 5px;
+  }
+  .right-teams{
+    border-bottom: 1px solid #2B2D66;
+    padding-bottom: 5px;
+   transform: 0.6s;
+  }
+  .span-ph{
+    font-size: 14px;
+  }
+  .right-teams:hover{
+    background:linear-gradient(to right,#E6606C, #6357F6,);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .top-img{
+    margin-right: 15px;
+    width:40px;
+    height:40px;
+  }
+
+  
+  @media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 992px) {
+  }
+  
