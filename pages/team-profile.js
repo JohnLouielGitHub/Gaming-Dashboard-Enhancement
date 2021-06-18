@@ -5,7 +5,7 @@ function TeamProfile() {
   return (
     <>
     
-    <SimpleBarReact forceVisible="y" autoHide={false} className="h-100">
+    
 
 
     <main id="team-profile" className="ms-auto tp-dark">
@@ -204,8 +204,7 @@ function TeamProfile() {
           </div>
         </div> 
     </main>
-
-    </SimpleBarReact>
+   
 
     
         
