@@ -54,7 +54,7 @@ function Register() {
                 justify-content-center
               "
               >
-                <div className="inner ">
+                <div className="inner">
                   <div>
                     <img
                       className="logo login_logo mb-1 mb-xl-2"
@@ -73,7 +73,9 @@ function Register() {
                       htmlFor="exampleInputLastname1"
                       className="form-label text-white"
                     >
-                      
+                      <span>
+                        <i className="fa fa-user"></i>
+                      </span>{" "}
                       
                     </label>
                     <input
@@ -90,7 +92,9 @@ function Register() {
                       htmlFor="exampleInputLastname1"
                       className="form-label text-white"
                     >
-                      
+                      <span className="me-1">
+                        <i className="fa fa-key"></i>
+                      </span>
                       
                     </label>
                     <input
@@ -106,7 +110,9 @@ function Register() {
                       htmlFor="exampleInputLastname1"
                       className="form-label text-white"
                     >
-                      
+                      <span className="me-1">
+                        <i className="fa fa-key"></i>
+                      </span>
                       
                     </label>
                     <input
@@ -123,7 +129,9 @@ function Register() {
                       htmlFor="exampleInputBirthday1"
                       className="form-label text-white"
                     >
-                      
+                      <span className="me-1">
+                        <i className="fa fa-key"></i>
+                      </span>
                       
                     </label>
                     <p>Birthday</p>
@@ -135,7 +143,9 @@ function Register() {
                       htmlFor="exampleInputBirthday1"
                       className="form-label text-white"
                     >
-                      
+                      <span className="me-1">
+                        <i className="fa fa-key"></i>
+                      </span>
                       
                     </label>
                     <p>Gender</p>
@@ -150,7 +160,7 @@ function Register() {
                   
                   
 
-                  <div className="upper-btn mb-auto mt-4">
+                  <div className="upper-btn mb-auto mt-2">
                     <button
                       type="submit"
                       className="btn btn-primary w-100 mb-2 mb-xl-1"

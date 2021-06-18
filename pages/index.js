@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Index() {
   return (
     <>
@@ -85,7 +87,7 @@ function Index() {
 
                   <div className="mb-3 mb-md-4 mb-xl-2 mb-xxl-4">
                     <label
-                      for="exampleInputPassword1"
+                      htmlFor="exampleInputPassword1"
                       className="form-label text-white"
                     >
                       <span className="me-1">
@@ -190,12 +192,12 @@ function Index() {
                   </div>
                   <div className="text-center mb-2 text-white-50">
                     Don't have an account?
-                    <a
-                      href="#"
-                      className="register-link login_a text-decoration-none"
-                    >
+                    <Link href="/register">
+                    <a  className="register-link login_a text-decoration-none">
                       Register here
                     </a>
+                    </Link>
+
                   </div>
                 </div>
               </form>

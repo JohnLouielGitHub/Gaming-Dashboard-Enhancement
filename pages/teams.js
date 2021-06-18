@@ -18,7 +18,7 @@ function Teams() {
                   <span className="text-white-50">List of Esports Teams</span>
             </div>
             <div className="row mb-4">
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-md-4 col-lg-3">
                 
                 <div className="team-sm-box position-relative mb-1 d-flex justify-content-center align-items-center">
                   <div className="overlay h-100 w-100 position-absolute"></div>
@@ -33,10 +33,10 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1">ViralCircuits</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
+                <h2 className="team-name">ViralCircuits</h2>
+                <span className="text-white-50">Philippines</span>
               </div>
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-md-4 col-lg-3">
                 <div className="team-sm-box position-relative mb-1">
                   <div className="overlay h-100 w-100 position-absolute"></div>
                   <img
@@ -50,10 +50,10 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1">Vile Guild</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
+                <h2 className="team-name">Vile Guild</h2>
+                <span className="text-white-50">Philippines</span>
               </div>
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-md-4 col-lg-3">
                 <div className="team-sm-box position-relative mb-1">
                   <div className="overlay h-100 w-100 position-absolute"></div>
                   <img
@@ -67,10 +67,10 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1 mb-1">Vanguards</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
+                <h2 className="team-name">Vanguards</h2>
+                <span className="text-white-50">Philippines</span>
               </div>
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-md-4 col-lg-3">
                 <div className="team-sm-box position-relative mb-1 d-flex justify-content-center align-items-center">
                   <div className="overlay h-100 w-100 position-absolute"></div>
                   <img
@@ -84,47 +84,13 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1">Manila Eagles</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
-              </div>
-              <div className="col col-6 col-md-4 col-lg-2">
-                <div className="team-sm-box position-relative mb-1 d-flex justify-content-center align-items-center">
-                  <div className="overlay h-100 w-100 position-absolute"></div>
-                  <img
-                    className="w-75 h-75"
-                    src="img/teams_img/mvp-logo.png"
-                    alt="logo"
-                  />
-                  <img
-                    className="flag position-absolute"
-                    src="img/teams_img/ph_flag.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <h2 className="team-name mb-1">Vanguards</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
-              </div>
-              <div className="col col-6 col-md-4 col-lg-2">
-                <div className="team-sm-box position-relative mb-1 d-flex justify-content-center align-items-center">
-                  <div className="overlay h-100 w-100 position-absolute"></div>
-                  <img
-                    className="w-75 h-75"
-                    src="img/teams_img/logo_dragon.png"
-                    alt="logo"
-                  />
-                  <img
-                    className="flag position-absolute"
-                    src="img/teams_img/ph_flag.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <h2 className="team-name mb-1">Dragons PH</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
+                <h2 className="team-name">Manila Eagles</h2>
+                <span className="text-white-50">Philippines</span>
               </div>
             </div>
 
             <div className="row">
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-lg-3">
                 <div className="team-sm-box position-relative mb-1 d-flex justify-content-center align-items-center">
                   <div className="overlay h-100 w-100 position-absolute"></div>
                   <img
@@ -138,10 +104,10 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1">Relentless</h2>
+                <h2 className="team-name">Relentless</h2>
                 <span className="text-white-50">Philippines</span>
               </div>
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-lg-3">
               <div className="team-sm-box position-relative mb-1">
                   <div className="overlay h-100 w-100 position-absolute"></div>
                   <img
@@ -155,10 +121,10 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1">Dragonfires</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
+                <h2 className="team-name">Dragonfires</h2>
+                <span className="text-white-50">Philippines</span>
               </div>
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-lg-3">
               <div className="team-sm-box position-relative mb-1">
                   <div className="overlay h-100 w-100 position-absolute"></div>
                   <img
@@ -172,44 +138,10 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1">Spearheads</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
+                <h2 className="team-name">Spearheads</h2>
+                <span className="text-white-50">Philippines</span>
               </div>
-              <div className="col col-6 col-md-4 col-lg-2">
-              <div className="team-sm-box position-relative mb-1 d-flex align-items-center justify-content-center">
-                  <div className="overlay h-100 w-100 position-absolute"></div>
-                  <img
-                    className="w-75 h-75"
-                    src="img/teams_img/new-logo-4.png"
-                    alt="logo"
-                  />
-                  <img
-                    className="flag position-absolute"
-                    src="img/teams_img/ph_flag.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <h2 className="team-name mb-1">Guttersnipes</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
-              </div>
-              <div className="col col-6 col-md-4 col-lg-2">
-              <div className="team-sm-box position-relative mb-1 d-flex align-items-center justify-content-center">
-                  <div className="overlay h-100 w-100 position-absolute "></div>
-                  <img
-                    className="w-75 h-75"
-                    src="img/teams_img/logo_4.png"
-                    alt="logo"
-                  />
-                  <img
-                    className="flag position-absolute"
-                    src="img/teams_img/ph_flag.jpg"
-                    alt="logo"
-                  />
-                </div>
-                <h2 className="team-name mb-1">Wolves</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
-              </div>
-              <div className="col col-6 col-md-4 col-lg-2">
+              <div className="col col-6 col-lg-3">
               <div className="team-sm-box position-relative mb-1 d-flex justify-content-center align-items-center">
                   <div className="overlay h-100 w-100 position-absolute "></div>
                   <img
@@ -223,8 +155,8 @@ function Teams() {
                     alt="logo"
                   />
                 </div>
-                <h2 className="team-name mb-1">Copperheads</h2>
-                <span className="text-white-50 span-ph">Philippines</span>
+                <h2 className="team-name">Copperheads</h2>
+                <span className="text-white-50">Philippines</span>
               </div>
             </div>
           </div>
@@ -233,17 +165,20 @@ function Teams() {
             <div className="right-menu p-3">
                 <div className="mb-4 right-menu-main">
                   <h2 className="right-menu-title mb-0">Leading Teams</h2> 
-                  <span className="text-white-50 span-ph">Top 10 Best Performing Teams</span>
+                  <span className="text-white-50">Top 10 Best Performing Teams</span>
                 </div>
-                <div className="right-teams d-flex align-items-center mb-3">
+                <div className="right-teams  mb-3 position-relative">
+                  <div className="mini-overlay position-absolute h-100 w-100"></div>
+                  <div className="position-absolute d-flex align-items-center h-100 w-100">
                   <img
                     className="top-img h-100"
                     src="img/teams_img/new-logo-2.png"
                     alt="logo"
                   />
                   <div>
-                  <h2 className="team-name">Emperors</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <h2 className="team-name">Landmines</h2>
+                  <span className="text-white-50">Philippines</span>
+                  </div>
                   </div>
               </div>
               
@@ -255,7 +190,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Unhinged</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -266,7 +201,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Guttersnipes</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -277,7 +212,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Master Panda</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -288,7 +223,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Gamers 2</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -299,7 +234,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Subsonic</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -310,7 +245,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Pride</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -321,7 +256,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Vile Guild</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -332,7 +267,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Senix</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
               <div className="right-teams d-flex align-items-center mb-3">
@@ -343,7 +278,7 @@ function Teams() {
                   />
                   <div>
                   <h2 className="team-name">Virtus Pro</h2>
-                  <span className="span-ph text-white-50">Philippines</span>
+                  <span className="text-white-50">Philippines</span>
                   </div>
               </div>
             </div>

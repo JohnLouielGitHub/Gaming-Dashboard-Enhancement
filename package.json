@@ -12,12 +12,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "antd": "^4.16.3",
+    "@popperjs/core": "^2.9.2",
     "bootstrap": "^5.0.1",
     "next": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "sass": "~1.32.13"
+    "sass": "~1.32.13",
+    "simplebar-react": "^2.3.3"
   },
   "devDependencies": {},
   "repository": {
@@ -26,7 +27,5 @@
   },
   "bugs": {
     "url": "https://github.com/JohnLouielGitHub/duelist-next-project/issues"
-  },
-  "homepage": "https://github.com/JohnLouielGitHub/duelist-next-project#readme",
-  "description": ""
+  }
 }
