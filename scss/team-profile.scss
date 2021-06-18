@@ -1,0 +1,68 @@
+.blue-test{
+    background-color: blue;
+}
+.yellow-test{
+    background-color: chartreuse;
+}
+
+#team-profile {
+    width: 100vw;
+    // overflow-y: visible;
+    // overflow-x: visible;
+  }
+  @media screen and (min-width: 1200px) {
+    #team-profile {
+      width: calc(100vw - 295px);
+    }
+  }
+
+
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #18181d;
+    color: $light;
+  }
+  
+  input {
+    outline: 0;
+    color: #fff;
+  }
+  
+  * a {
+    color: $light;
+    text-decoration: none;
+  }
+
+.tp__tourna-img{
+    width: 50px;
+    height: 50px;
+}
+.tp__win-lose{
+    display: inline-block;
+    width: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+.tp__tourna{
+    background-color: #202026;
+}
+
+.tp__clan-avatar img{
+    display: block;
+    width: 300px;
+}
+.tp__clan-cover img{
+    display: block;
+    width: 300px;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    body {
+        overflow-y: visible;
+        overflow-x: visible;
+      }
+  }
