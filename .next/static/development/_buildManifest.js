@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/":["static\u002Fchunks\u002Fpages\u002Findex.js"],"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],"/dashboard":["static\u002Fchunks\u002Fpages\u002Fdashboard.js"],"/featured":["static\u002Fchunks\u002Fpages\u002Ffeatured.js"],"/next/dist/pages/_error":["static\u002Fchunks\u002Fpages\u002Fnext\u002Fdist\u002Fpages\u002F_error.js"],sortedPages:["\u002F","\u002F_app","\u002F_error","\u002Fdashboard","\u002Ffeatured","\u002Fnext\u002Fdist\u002Fpages\u002F_error"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
+=======
+self.__BUILD_MANIFEST = {__rewrites:{beforeFiles:[],afterFiles:[],fallback:[]},"/_error":["static\u002Fchunks\u002Fpages\u002F_error.js"],"/dashboard":["static\u002Fchunks\u002Fpages\u002Fdashboard.js"],"/team-profile":["static\u002Fchunks\u002Fpages\u002Fteam-profile.js"],sortedPages:["\u002F_app","\u002F_error","\u002Fdashboard","\u002Fteam-profile"]};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
+>>>>>>> b5d2d0aff8eef424b418a86e1f0c5f693e817f5f

@@ -16,7 +16,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var _jsxFileName = "C:\\Users\\Jhon Lawrence\\Desktop\\duelist-next-project\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\jhonr\\OneDrive\\Desktop\\duelist-next-project\\pages\\index.js";
 
 function Index() {
   return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
