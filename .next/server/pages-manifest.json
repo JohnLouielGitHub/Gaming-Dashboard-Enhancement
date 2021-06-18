@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_document": "pages/_document.js",
   "/_error": "pages/_error.js",
+  "/featured": "pages/featured.js",
   "/": "pages/index.js",
-  "/featured": "pages/featured.js"
+  "/teams": "pages/teams.js",
+  "/live": "pages/live.js",
+  "/tournament": "pages/tournament.js"
 }

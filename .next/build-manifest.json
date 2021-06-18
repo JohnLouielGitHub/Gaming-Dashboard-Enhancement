@@ -33,6 +33,21 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/featured.js"
+    ],
+    "/live": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/live.js"
+    ],
+    "/teams": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/teams.js"
+    ],
+    "/tournament": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/tournament.js"
     ]
   },
   "ampFirstPages": []
