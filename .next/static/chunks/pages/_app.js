@@ -43,7 +43,7 @@ __webpack_require__.r(__webpack_exports__);
 /* module decorator */ module = __webpack_require__.hmd(module);
 
 
-var _jsxFileName = "C:\\Users\\USER\\Desktop\\Next-js\\components\\SideMenu.js";
+var _jsxFileName = "C:\\Users\\Jhon Lawrence\\Desktop\\duelist-next-project\\components\\SideMenu.js";
 
 
 function SideMenu() {
@@ -704,7 +704,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* module decorator */ module = __webpack_require__.hmd(module);
 
-var _jsxFileName = "C:\\Users\\USER\\Desktop\\Next-js\\components\\layouts\\Auth.js";
+var _jsxFileName = "C:\\Users\\Jhon Lawrence\\Desktop\\duelist-next-project\\components\\layouts\\Auth.js";
 
 function Auth(_ref) {
   var children = _ref.children;
@@ -795,7 +795,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _SideMenu__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../SideMenu */ "./components/SideMenu.js");
 /* module decorator */ module = __webpack_require__.hmd(module);
 
-var _jsxFileName = "C:\\Users\\USER\\Desktop\\Next-js\\components\\layouts\\Layout.js";
+var _jsxFileName = "C:\\Users\\Jhon Lawrence\\Desktop\\duelist-next-project\\components\\layouts\\Layout.js";
 
 
 function Layout(_ref) {
@@ -1386,7 +1386,7 @@ function createObserver(options) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var C_Users_USER_Desktop_Next_js_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var C_Users_Jhon_Lawrence_Desktop_duelist_next_project_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react/jsx-dev-runtime */ "./node_modules/react/jsx-dev-runtime.js");
 /* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _scss_main_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../scss/main.scss */ "./scss/main.scss");
@@ -1396,11 +1396,11 @@ __webpack_require__.r(__webpack_exports__);
 /* module decorator */ module = __webpack_require__.hmd(module);
 
 
-var _jsxFileName = "C:\\Users\\USER\\Desktop\\Next-js\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\Jhon Lawrence\\Desktop\\duelist-next-project\\pages\\_app.js";
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,C_Users_USER_Desktop_Next_js_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { (0,C_Users_Jhon_Lawrence_Desktop_duelist_next_project_node_modules_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__.default)(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 
 

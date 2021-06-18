@@ -34,6 +34,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/dashboard.js"
     ],
+    "/featured": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/featured.js"
+    ],
     "/next/dist/pages/_error": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
