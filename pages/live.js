@@ -44,7 +44,7 @@ function Live() {
                           </div>
                           </div>
                           <div className="col-4 text-center">
-                          <a className="bg-gold text-main text-dark px-2 py-1 border-16">
+                          <a className="bg-gold text-main text-dark p-1 rounded-circle">
                             <i className="far fa-star"></i>
                           </a>
                           </div>
@@ -58,7 +58,7 @@ function Live() {
                               <img className="live__live-match-team" src="img/teams_img/game-logo-7.png" alt="team-1"/>
                             </div>
                             <div>
-                              <div className="h6 text-center text-darker">06 / 18 / 2021</div>
+                              <div className="h6 text-center text-fb">06 / 18 / 2021</div>
                               <div className="h6 text-center text-gold">02 : 36 : 31</div>
                               <div className="h6 text-center text-light">Hours   Minutes   Seconds</div>
                             </div>
@@ -80,11 +80,11 @@ function Live() {
                         <div className="row">
                           <div className=" d-flex justify-content-around align-items-center">
                           <div>
-                              <img className="live__teams" src="img/teams_img/photo-1.jpg" alt="red-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-2.jpg" alt="red-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-3.jpg" alt="red-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-4.jpg" alt="red-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-5.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-1.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-2.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-3.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-4.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-5.jpg" alt="red-team"/>
                             </div>
                             <div className="h5">
                               RED
@@ -97,11 +97,11 @@ function Live() {
                               BLUE
                             </div>
                             <div>
-                              <img className="live__teams" src="img/teams_img/photo-10.jpg" alt="blue-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-9.jpg" alt="red-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-8.jpg" alt="red-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-7.jpg" alt="red-team"/>
-                              <img className="live__teams" src="img/teams_img/photo-6.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-10.jpg" alt="blue-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-9.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-8.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-7.jpg" alt="red-team"/>
+                              <img className="live__teams ms-1" src="img/teams_img/photo-6.jpg" alt="red-team"/>
                             </div>
                           </div>
 
@@ -116,7 +116,7 @@ function Live() {
               <div className="col-md-4">
                 <div className="vh-100">
                   <div className="live__chat w-100 h-100 border-sp bg-main position-relative">
-                    <h2
+                    <h5
                       className="
                     live__chat-title
                     heading-2
@@ -129,7 +129,7 @@ function Live() {
                   "
                     >
                       Live Chat
-                    </h2>
+                    </h5>
                     <div
                       className="live__chat-message-container w-100 h-100 py-2 px-3 position-absolute"
                       data-simplebar
