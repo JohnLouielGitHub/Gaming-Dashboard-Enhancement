@@ -33,11 +33,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/featured.js"
-    ],
-    "/team-profile": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/team-profile.js"
     ]
   },
   "ampFirstPages": []

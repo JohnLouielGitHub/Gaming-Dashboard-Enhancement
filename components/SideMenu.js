@@ -67,15 +67,15 @@ function SideMenu() {
                       </a>
                     </Link>
 
-                    <Link href="/videos">
-                      <a className={`d-block ${isActive("/videos")}`}>
+                    <Link href="/tournament">
+                      <a className={`d-block ${isActive("/tournament")}`}>
                         <li id="side-menu-icon-videos" className="p-2">
                           <img
                             className="side-menu-icon me-2"
                             src="img/Videos.svg"
                             alt="videos-icon.svg"
                           />
-                          Videos
+                          Tournament
                         </li>
                       </a>
                     </Link>
@@ -180,15 +180,15 @@ function SideMenu() {
               </a>
             </Link>
 
-            <Link href="/videos">
-              <a className={`d-block ${isActive("/videos")}`}>
+            <Link href="/tournament">
+              <a className={`d-block ${isActive("/tournament")}`}>
                 <li id="side-menu-icon-videos-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
                     src="img/Videos.svg"
                     alt="videos-icon.svg"
                   />
-                  Videos
+                  Tournament
                 </li>
               </a>
             </Link>

@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps, router }) {
     router.pathname.startsWith("/featured") ||
     router.pathname.startsWith("/team-profile")
     || router.pathname.startsWith("/teams") ||
-    router.pathname.startsWith("/videos")
+    router.pathname.startsWith("/tournament")
   ) {
     return (
       <Layout>

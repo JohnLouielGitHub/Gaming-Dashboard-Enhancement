@@ -119,7 +119,7 @@ function Index() {
                   <div className="upper-btn mb-md-4">
                     <button
                       type="submit"
-                      className="btn btn-primary w-100 mb-2 mb-xl-1"
+                      className="btn btn-primary btn-color w-100 mb-2 mb-xl-1"
                     >
                       Sign in
                     </button>
