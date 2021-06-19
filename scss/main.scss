@@ -128,6 +128,7 @@ $theme-colors: (
 @import "featured";
 @import "team-profile";
 @import "register";
+@import "dashboard";
 
 .active {
   background-color: $main-background;

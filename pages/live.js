@@ -18,14 +18,17 @@ function Live() {
               <Header/>
               <div className="col-md-8">
                 <div className="row">
-                  <div className="col-xxl-12 w-100">
+                  <div className="col-xxl-12 w-100 position-relative px-3">
                     <video
                       className="w-100 live__video-player bg-dark border-sp"
                       id="video"
-                      poster="//shaka-player-demo.appspot.com/assets/poster.jpg"
+                      poster="https://s.aolcdn.com/hss/storage/midas/f10fcd5c0630ecb553f69ead07e7c318/206538633/esports-ed.jpg"
                       controls
                       autoPlay
-                    ></video>
+                    >
+                    </video>
+                    <h2 className="position-absolute top-0 bg-dark px-3 py-2 w-75 text-start" tabIndex="-1">Live Now : Champinoship S Series League || Group 1 - Finals match 5 of 5</h2>
+                    
                   </div>
                   <div className="col-12">
                   <div className="live__card-matches border-0 border-16 mb-2 border-sp mx-1">
@@ -114,7 +117,7 @@ function Live() {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="vh-100">
+                <div className="h-75">
                   <div className="live__chat w-100 h-100 border-sp bg-main position-relative">
                     <h5
                       className="
@@ -131,7 +134,7 @@ function Live() {
                       Live Chat
                     </h5>
                     <div
-                      className="live__chat-message-container w-100 h-100 py-2 px-3 position-absolute"
+                      className="live__chat-message-container w-100 h-75 py-2 px-3 position-absolute"
                       data-simplebar
                       data-simplebar-auto-hide="true"
                     >
