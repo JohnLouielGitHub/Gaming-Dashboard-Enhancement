@@ -124,12 +124,15 @@ function Index() {
                   </div>
 
                   <div className="upper-btn mb-md-4">
+                    <Link href="/featured">
                     <button
                       type="submit"
                       className="btn-color w-100 bg-darker border-16 px-3 py-1 text-center"
                     >
                       Sign in
                     </button>
+                    </Link>
+    
                   </div>
 
                   <div
