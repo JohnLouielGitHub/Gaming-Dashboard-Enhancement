@@ -789,11 +789,11 @@ function Dashboard() {
               </div>
             </div>
           </div>
-          <div className="row mt-5">
-            <div className="col col-7 d-flex flex-wrap mb-5 bg-card border-bottom-16 border-top-16 bracket-col">
-              <div className="bracket-container mx-auto">
-               <div className="bracket-box p-2">
-               <div className="bg-card">
+          <div className="row mt-5 ">
+            <div className="col col-12 d-flex flex-wrap mb-5 bg-card border-bottom-16 border-top-16 bracket-col w-100">
+              <div className="bracket-container w-100 ">
+               <div className="bracket-box p-2 w-100">
+               <div className="bg-card w-100">
                 <h1 className="text-center h1">Season 1 Tournament Bracket</h1>
                 <div className="text-center h3 mb-0">Dota 2 April 29, 2021 Tournament - Manila, Philippines</div>
                 </div>
@@ -1369,11 +1369,18 @@ function Dashboard() {
                   </div>
                 </div>
               
+              
                 </div>
                </div>
               </div>
             </div>
+
+
+
+
           </div>
+          
+          
       </SimpleBarReact>
       </section>
     </main>{" "}

@@ -30,3 +30,19 @@
   border: 2px solid rgba(255, 255, 255, 0.0782099);
   box-shadow: 0px 24px 48px rgba(0, 1, 44, 0.157184);
 }
+
+.myfilter{
+
+  position: relative;
+
+}
+
+.myfilter:after{
+
+position: absolute; content: ''; display: block; top: 0; left: 0; height: 100%; width: 100%;
+
+background: rgba(112, 55, 200, 0.4);
+
+mix-blend-mode: multiply
+
+}

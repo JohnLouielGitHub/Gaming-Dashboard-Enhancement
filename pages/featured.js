@@ -36,23 +36,25 @@ function Featured() {
                   <div className="row d-flex">
                     <div className="col-md-12">
                       <div className="featured__banner w-100 bg-banner-2 mb-5">
-                        <div className="col-12 col-md-10">
-                          <div className="p-3">
+                        <div className="col-12 col-md-12 py-2">
+                          <div className="px-3 py-1 bg-fade">
+                            
                             <h2 className="h2 text-start mb-2">
                               Spectate Live Matches Participate in Draft
                               Tournaments{" "}
                             </h2>
-                            <p>
+                            <p className="mb-1">
                               Join Duelist now to get access to all the
                               tournaments taking place in the world of Duelist.
                               All you need to do is log on to the app and you
                               can watch your favorite players, or even play
                               against them yourself!
                             </p>
-                            <button className="btn-color w-25 bg-darker border-sp border-16 px-3 py-2 text-center">
+
+                          </div>
+                          <button className="btn-color w-25 bg-fb border-sp border-16 ms-3 mt-2 px-3 py-2 text-center">
                               Join Now
                             </button>
-                          </div>
                         </div>
                       </div>
                     </div>

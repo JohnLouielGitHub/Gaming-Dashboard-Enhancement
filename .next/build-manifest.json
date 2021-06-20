@@ -29,10 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/dashboard.js"
     ],
-    "/featured": [
+    "/teams": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/featured.js"
+      "static/chunks/pages/teams.js"
     ]
   },
   "ampFirstPages": []

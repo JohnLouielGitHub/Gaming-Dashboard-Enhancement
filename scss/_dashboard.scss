@@ -36,12 +36,12 @@ img{
     overflow:hidden;
 }
 
-.tournaments .dummy-box{ 
+.tournaments .dummy-box,
+.teams .dummy-box{ 
     width: 100%;
    overflow:hidden;
     height:100%;   
     border: 0;
-    border-radius: 0 0 12px 12px!important;
     padding-bottom: 20px!important;
 }
 #scroller{
@@ -64,14 +64,16 @@ tr{
     font-size: 13px;
     padding:5px 15px;
 }
-.tournaments .live_btn{
+.tournaments .live_btn,
+.teams .live_btn{
     margin-top: 12px;
     border-radius: 5px;
     font-size: 12px;
     padding: 3px 15px;
     
 }
-.tournaments .live_btn {
+.tournaments .live_btn,
+.teams .live_btn {
     background: linear-gradient(-45deg, #e42222, #eb5a35, #e42222, #c02600);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
@@ -96,8 +98,10 @@ tr{
 }
 .tournaments img.flag{
     width: 25px!important;
+    margin-right: 5px;
 }
-.tournaments img.live_icon{
+.tournaments img.live_icon,
+.teams img.live_icon{
     width: 50px!important;
     height: 50px!important;
 }
@@ -223,7 +227,6 @@ h2 {
 
 .tournament-bracket__round {
   display: block;
-  margin-left: -3px;
   flex: 1;
 }
 
@@ -651,6 +654,9 @@ h2 {
 .bracket-container{
     height:250px!important;
     
+}
+.tournaments .row{
+  padding: 0 12px!important;
 }
 
 

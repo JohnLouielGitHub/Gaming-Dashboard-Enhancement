@@ -6,38 +6,23 @@
 .teams .row{
   padding-left:8px!important;
 }
-
-.carousel{
-  background: #000;
-  height: 250px;
-}
-.carousel {
-  
-  //background-image: url("../public/img/teams_img/Team-pic.png");
-  border-radius: 15px;
-  height: 95%;
-  animation: change 15s infinite ease-in-out;
-}
-
 #login .inner {
   width: 90%;
 }
 
-@keyframes change {
-  0% {
-    background-image: url("../public/img/teams_img/Team-pic.png");
-  }
-  20% {
-    background-image: url("../public/img/teams_img/Team2-pic.png");
-  }
-
-  60% {
-    background-image: url("../public/img/teams_img/Team-pic.png");
-  }
-  100% {
-    background-image: url("../public/img/teams_img/Team2-pic.png");
-  }
+.teams .carousel{
+  background: #000;
+  height: 350px;
+  background-image: url("https://assets2.rappler.com/2020/09/1599552616-execration-mpl-ph.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 12px;
 }
+
+
+
+
 
 .title{
   padding-left:12px!important;
