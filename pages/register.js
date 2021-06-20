@@ -28,8 +28,9 @@ function Register() {
                 position-relative
               "
               >
-                <div className="position-absolute text-white">
-                  <h1>
+                <div className="position-absolute text-white px-3">
+                  <div className="bg-line"></div>
+                  <h1 className="text-start">
                     <span className="top">Login And</span>
                     <span className="color">Explore</span> Dashboard
                   </h1>
@@ -44,9 +45,8 @@ function Register() {
             <div className="col login_col col-12 col-xl-6">
               <form
                 className="
-                col-11
+                col-12
                 w-100
-                h-100
                 m-auto
                 overflow-hidden
                 d-flex
@@ -56,15 +56,18 @@ function Register() {
               >
                 <div className="inner">
                   <div>
+                    <div className="text-center">
                     <img
                       className="logo login_logo mb-1 mb-xl-2"
                       src="img/login_img/game-logo.png"
                       alt="logo"
                     />
-                    <h2 className="login_h2 mb-1 text-white">
+                    </div>
+  
+                    <h2 className="login_h2 h2 mb-1 text-white">
                       Sign Up
                     </h2>
-                    <p>
+                    <p className=" h4">
                       It's quick and easy.
                     </p>
                   </div>
@@ -73,10 +76,7 @@ function Register() {
                       htmlFor="exampleInputLastname1"
                       className="form-label text-white"
                     >
-                      <span>
-                        <i className="fa fa-user"></i>
-                      </span>{" "}
-                      
+                     Firstname 
                     </label>
                     <input
                       type="name"
@@ -92,10 +92,8 @@ function Register() {
                       htmlFor="exampleInputLastname1"
                       className="form-label text-white"
                     >
-                      <span className="me-1">
-                        <i className="fa fa-key"></i>
-                      </span>
-                      
+                 
+                      Lastname
                     </label>
                     <input
                       type="lastname"
@@ -104,15 +102,13 @@ function Register() {
                       placeholder="Last Name"
                     />
                   </div>
-
+                    
                   <div className="">
                     <label
                       htmlFor="exampleInputLastname1"
                       className="form-label text-white"
                     >
-                      <span className="me-1">
-                        <i className="fa fa-key"></i>
-                      </span>
+                    Password
                       
                     </label>
                     <input
@@ -129,9 +125,7 @@ function Register() {
                       htmlFor="exampleInputBirthday1"
                       className="form-label text-white"
                     >
-                      <span className="me-1">
-                        <i className="fa fa-key"></i>
-                      </span>
+                 
                       
                     </label>
                     <p>Birthday</p>
@@ -143,9 +137,7 @@ function Register() {
                       htmlFor="exampleInputBirthday1"
                       className="form-label text-white"
                     >
-                      <span className="me-1">
-                        <i className="fa fa-key"></i>
-                      </span>
+                      
                       
                     </label>
                     <p>Gender</p>
@@ -160,7 +152,7 @@ function Register() {
                   
                   
 
-                  <div className="upper-btn mb-auto mt-2">
+                  <div className="upper-btn mb-auto mt-3">
                     <button
                       type="submit"
                       className="btn btn-primary w-100 mb-2 mb-xl-1"
@@ -169,6 +161,70 @@ function Register() {
                     </button>
                   </div>
 
+                  <div
+                    id="emailHelp"
+                    className="
+                    form-text
+                    mb-3
+                    d-flex
+                    justify-content-center
+                    mb-md-4 mb-xl-2 mb-xxl-4
+                  "
+                  >
+                    Or sign up with
+                  </div>
+                  <div className="social-btns d-flex justify-content-center bottom mb-4">
+                    <button
+                      className="
+                      btn
+                      google
+                      text-white
+                      border-0
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                    >
+                      <img src="img/login_img/google.png" alt="google icon" />
+                    </button>
+
+                    <button
+                      className="
+                      btn
+                      facebook
+                      text-white
+                      border-0
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                      mx-3
+                    "
+                    >
+                      <img
+                        src="img/login_img/facebook.png"
+                        alt="facebook icon"
+                      />
+                    </button>
+
+                    <button
+                      className="
+                      btn
+                      twitter
+                      text-white
+                      border-0
+                      d-flex
+                      justify-content-center
+                      align-items-center
+                    "
+                    >
+                      <img
+                        className="twitter-icon"
+                        src="img/login_img/twitter.png"
+                        alt="twitter icon"
+                      />
+                    </button>
+                  </div>
+                  
                  
                   
                   

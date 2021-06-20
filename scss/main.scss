@@ -13,6 +13,7 @@ $pink: #f55771;
 $active: #181942;
 $main-background: #181942;
 $CARD-lINEAR: linear-gradient(#4d4f95, #2b2d66);
+$gray: gray;
 
 $theme-colors: (
   "primary": $primary,
@@ -29,6 +30,7 @@ $theme-colors: (
   "gold": $gold,
   "active": $active,
   "main": $main-background,
+  "gray": $gray,
 ) !default;
 
 @import "~bootstrap/scss/functions";
@@ -126,6 +128,7 @@ $theme-colors: (
 @import "featured";
 @import "team-profile";
 @import "register";
+@import "dashboard";
 
 .active {
   background-color: $main-background;
@@ -136,7 +139,39 @@ button {
   border: 0;
 }
 
+* a:hover {
+  color: gray;
+}
+
 * {
   font-family: "Barlow", sans-serif;
   font-family: "Barlow Condensed", sans-serif;
+}
+
+
+.bg-banner-1{
+  background-image: url(https://static.tweaktown.com/content/6/8/6871_1_interested-esports-heres-guide-start-viewership-journey.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.bg-banner-2{
+  background-image: url(https://esportsjunkie.com/wp-content/uploads/2020/09/01-mercedes-benz-esports-3400x1440.jpeg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+
+.bg-card{
+  background: $CARD-lINEAR;
+}
+
+.bg-none{
+  background: none;
 }

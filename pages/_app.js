@@ -6,9 +6,10 @@ function MyApp({ Component, pageProps, router }) {
   if (
     router.pathname.startsWith("/live") ||
     router.pathname.startsWith("/featured") ||
-    router.pathname.startsWith("/team-profile")
-    || router.pathname.startsWith("/teams") ||
-    router.pathname.startsWith("/tournament")
+    router.pathname.startsWith("/team-profile")||
+    router.pathname.startsWith("/teams") ||
+    router.pathname.startsWith("/tournament") || 
+    router.pathname.startsWith("/dashboard")
   ) {
     return (
       <Layout>

@@ -30,8 +30,9 @@ function Index() {
                 position-relative
               "
               >
-                <div className="position-absolute text-white">
-                  <h1>
+                <div className="position-absolute text-white  px-3">
+                  <div className="bg-line"></div>
+                  <h1 className="text-start">
                     <span className="top">Login And</span>
                     <span className="color">Explore</span> Dashboard
                   </h1>
@@ -55,14 +56,18 @@ function Index() {
                 align-items-center
                 justify-content-center
               "
+    
               >
                 <div className="inner">
                   <div>
+                    <div className="text-center">
                     <img
                       className="logo login_logo mb-1 mb-xl-2"
                       src="img/login_img/game-logo.png"
                       alt="logo"
                     />
+                    </div>
+
                     <h2 className="login_h2 mb-4 text-white">
                       Sign in to your account
                     </h2>
@@ -75,13 +80,14 @@ function Index() {
                       <span>
                         <i className="fa fa-user"></i>
                       </span>{" "}
-                      Username
+                      &nbsp;Username
                     </label>
                     <input
                       type="email"
                       className="form-control"
                       id="exampleInputEmail1"
                       aria-describedby="emailHelp"
+                      placeholder="Username..."
                     />
                   </div>
 
@@ -93,12 +99,13 @@ function Index() {
                       <span className="me-1">
                         <i className="fa fa-key"></i>
                       </span>
-                      Password
+                      &nbsp;Password
                     </label>
                     <input
                       type="password"
                       className="form-control"
                       id="exampleInputPassword1"
+                      placeholder="Password..."
                     />
                   </div>
 
@@ -119,7 +126,7 @@ function Index() {
                   <div className="upper-btn mb-md-4">
                     <button
                       type="submit"
-                      className="btn btn-primary btn-color w-100 mb-2 mb-xl-1"
+                      className="btn-color w-100 bg-darker border-16 px-3 py-1 text-center"
                     >
                       Sign in
                     </button>
@@ -137,12 +144,11 @@ function Index() {
                   >
                     Or sign in with
                   </div>
-                  <div className="social-btns d-flex justify-content-between bottom mb-4">
+                  <div className="social-btns d-flex justify-content-center bottom mb-4">
                     <button
                       className="
                       btn
                       google
-                      btn-primary
                       text-white
                       border-0
                       d-flex
@@ -157,12 +163,12 @@ function Index() {
                       className="
                       btn
                       facebook
-                      btn-primary
                       text-white
                       border-0
                       d-flex
                       justify-content-center
                       align-items-center
+                      mx-3
                     "
                     >
                       <img
@@ -175,7 +181,6 @@ function Index() {
                       className="
                       btn
                       twitter
-                      btn-primary
                       text-white
                       border-0
                       d-flex
@@ -191,11 +196,9 @@ function Index() {
                     </button>
                   </div>
                   <div className="text-center mb-2 text-white-50">
-                    Don't have an account?
+                    Don't have an account?&nbsp;&nbsp;&nbsp;
                     <Link href="/register">
-                    <a  className="register-link login_a text-decoration-none">
-                      Register here
-                    </a>
+                    <a  className="register-link login_a text-decoration-none">Register here</a>
                     </Link>
 
                   </div>

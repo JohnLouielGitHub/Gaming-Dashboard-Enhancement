@@ -5,7 +5,7 @@ function Header() {
     <>
       {" "}
       <div className="col-md-12 mb-3">
-        <div className="row">
+        <div className="head-row">
 
           <div className="profile-search d-flex justify-content-between align-items-center">
           <div className="col-6 col-md-8 pe-1">
@@ -60,10 +60,11 @@ function Header() {
             </div>
           <div className="col-6 col-md-4 ps-4">
           <div className="d-flex justify-content-between align-items-center">
-            <img className="profile-user-logo me-2" src="img/teams_img/logo_6.png"/>
-            <h2 className=" h4 w-100 ms-3 mb-0 mt-0 m-xl-0 px-2 ">
+            
+            <h2 className=" h4 w-100 ms-3 mb-0 mt-0 m-xl-0 px-3 text-end ">
               X-travaganza
             </h2>
+            <img className="profile-user-logo ms-2" src="img/teams_img/logo_6.png"/>
             </div>
           </div>
           </div>
