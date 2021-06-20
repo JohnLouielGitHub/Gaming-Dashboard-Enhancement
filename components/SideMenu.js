@@ -59,7 +59,7 @@ function SideMenu() {
                         <li id="side-menu-icon-live" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Live.svg"
+                            src="img/live.svg"
                             alt="live-icon.svg"
                           />
                           Live
@@ -72,7 +72,7 @@ function SideMenu() {
                         <li id="side-menu-icon-videos" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Videos.svg"
+                            src="img/videos.svg"
                             alt="videos-icon.svg"
                           />
                           Tournaments
@@ -85,7 +85,7 @@ function SideMenu() {
                         <li id="side-menu-icon-teams" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Teams.svg"
+                            src="img/teams.svg"
                             alt="teams-icon.svg"
                           />
                           Teams
@@ -111,7 +111,7 @@ function SideMenu() {
                         <li id="side-menu-icon-setting" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Setting.svg"
+                            src="img/setting.svg"
                             alt="setting-icon.svg"
                           />
                           Setting
@@ -172,7 +172,7 @@ function SideMenu() {
                 <li id="side-menu-icon-live-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Live.svg"
+                    src="img/live.svg"
                     alt="live-icon.svg"
                   />
                   Live
@@ -185,7 +185,7 @@ function SideMenu() {
                 <li id="side-menu-icon-videos-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Videos.svg"
+                    src="img/videos.svg"
                     alt="videos-icon.svg"
                   />
                   Tournaments
@@ -198,7 +198,7 @@ function SideMenu() {
                 <li id="side-menu-icon-teams-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Teams.svg"
+                    src="img/teams.svg"
                     alt="teams-icon.svg"
                   />
                   Teams
@@ -211,7 +211,7 @@ function SideMenu() {
                 <li id="side-menu-icon-featured-1" className="p-2">
                   <img
                     className="side-menu-icon me-2"
-                    src="img/Featured.svg"
+                    src="img/featured.svg"
                     alt="featured-icon.svg"
                   />
                   Team Profile
