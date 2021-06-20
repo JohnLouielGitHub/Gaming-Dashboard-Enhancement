@@ -98,7 +98,7 @@ function SideMenu() {
                         <li id="side-menu-icon-featured" className="p-2">
                           <img
                             className="side-menu-icon me-2"
-                            src="img/Featured.svg"
+                            src="img/featured.svg"
                             alt="featured-icon.svg"
                           />
                           Team Profile
