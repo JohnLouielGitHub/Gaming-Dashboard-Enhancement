@@ -28,16 +28,16 @@ function Dashboard() {
           </div>
 
           <div className="row d-flex flex-wrap bottom-row mt-3">
-            <div className="col col-12 col-lg-7 h-100">
+            <div className="col col-12 col-lg-7 h-100  border-bottom-16">
               <div className="dummy-box">
                 <div className="teams-box-header d-flex justify-content-between">
                   <h2>Tournaments</h2>
                 </div>
                 <SimpleBarReact forceVisible="y" autoHide={false} className="h-100">
                 <div>
-                  <div className="h-100 table-container">
+                  <div id="scroller" className="h-100 table-container">
                     <table
-                      className="table table-borderless caption-top overflow-hidden"
+                      className="table table-borderless caption-top overflow-hidden border-bottom-16"
                     >
                       <tbody className="overflow-scroll">
                         <tr>
@@ -602,8 +602,8 @@ function Dashboard() {
                   </SimpleBarReact>
               </div>
             </div>
-            <div className="col col-12 col-lg-5 h-100 mt-3 mt-lg-0">
-              <div className="dummy-box">
+            <div className="col col-12 col-lg-5 h-100 mt-3 mt-lg-0 border-bottom-16">
+              <div className="border-16">
                 <div
                   className="
                     teams-box-header
@@ -618,10 +618,10 @@ function Dashboard() {
                 <div
                   id="scroller"
                   data-simplebar
-                  className="simpl-bar live-box-scroll"
+                  className="simpl-bar live-box-scroll border-bottom-16"
                 >
                   <div className="h-100">
-                    <table className="table table-borderless live-table">
+                    <table className="table table-borderless live-table border-bottom-16">
                       <tbody>
                         <tr>
                           <th scope="row">1</th>
@@ -778,161 +778,7 @@ function Dashboard() {
                             />
                           </td>
                         </tr>
-                        <tr>
-                          <th scope="row">6</th>
-                          <td className="text-start">
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/team-logo-2.png"
-                              alt=""
-                            />
-                            Doom
-                          </td>
-                          <td className="text-center">
-                            <button
-                              className="
-                                live_btn
-                                bg-danger
-                                border-0
-                                text-uppercase text-white
-                              "
-                            >
-                              live
-                            </button>
-                          </td>
-                          <td className="text-end">
-                            Phoenix
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/team-logo-5.png"
-                              alt=""
-                            />
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">7</th>
-                          <td className="text-start">
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/team-logo-1.png"
-                              alt=""
-                            />
-                            Dragons
-                          </td>
-                          <td className="text-center">
-                            <button
-                              className="
-                                live_btn
-                                bg-danger
-                                border-0
-                                text-uppercase text-white
-                              "
-                            >
-                              live
-                            </button>
-                          </td>
-                          <td className="text-end">
-                            Panda
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/logo_2.png"
-                              alt=""
-                            />
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">8</th>
-                          <td className="text-start">
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/logo_3.png"
-                              alt=""
-                            />
-                            Subsonic
-                          </td>
-                          <td className="text-center">
-                            <button
-                              className="
-                                live_btn
-                                bg-danger
-                                border-0
-                                text-uppercase text-white
-                              "
-                            >
-                              live
-                            </button>
-                          </td>
-                          <td className="text-end">
-                            Unbreakable
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/logo_1.png"
-                              alt=""
-                            />
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">9</th>
-                          <td className="text-start">
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/logo_1.png"
-                              alt=""
-                            />
-                            Subsonic
-                          </td>
-                          <td className="text-center">
-                            <button
-                              className="
-                                live_btn
-                                bg-danger
-                                border-0
-                                text-uppercase text-white
-                              "
-                            >
-                              live
-                            </button>
-                          </td>
-                          <td className="text-end">
-                            Emperor
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/logo_5.png"
-                              alt=""
-                            />
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row">10</th>
-                          <td className="text-start">
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/game-logo-8.png"
-                              alt=""
-                            />
-                            Virtus
-                          </td>
-                          <td className="text-center">
-                            <button
-                              className="
-                                live_btn
-                                bg-danger
-                                border-0
-                                text-uppercase text-white
-                              "
-                            >
-                              live
-                            </button>
-                          </td>
-                          <td className="text-end">
-                            Pride
-                            <img
-                              className="live_icon"
-                              src="img/teams_img/game-logo-10.png"
-                              alt=""
-                            />
-                          </td>
-                        </tr>
+                        
                       </tbody>
                     </table>
                   </div>
@@ -942,11 +788,14 @@ function Dashboard() {
             </div>
           </div>
           <div className="row mt-5">
-            <div className="col col-12 d-flex flex-wrap mb-5">
+            <div className="col col-12 d-flex flex-wrap mb-5 bg-card border-bottom-16 border-top-16">
               <div className="bracket-container mx-auto">
-                <h1>Season 1 Tournament Bracket</h1>
-                <h2>Dota 2 April 29, 2021 Tournament - Manila, Philippines</h2>
-                <div className="tournament-bracket tournament-bracket--rounded">
+                <div className="bg-card">
+                <h1 className="text-center h1">Season 1 Tournament Bracket</h1>
+                <div className="text-center h3 mb-0">Dota 2 April 29, 2021 Tournament - Manila, Philippines</div>
+                </div>
+                <div className="bg-card">
+                <div className="tournament-bracket tournament-bracket--rounded pt-3 ">
                   <div
                     className="
                       tournament-bracket__round
@@ -956,9 +805,9 @@ function Dashboard() {
                     <h3 className="tournament-bracket__round-title">
                       Quarterfinals
                     </h3>
-                    <ul className="tournament-bracket__list">
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-18">01 April 2021</time>
@@ -1020,8 +869,8 @@ function Dashboard() {
                         </div>
                       </li>
 
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-18">01 April 2021</time>
@@ -1082,8 +931,8 @@ function Dashboard() {
                           </table>
                         </div>
                       </li>
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-18">01 April 2021</time>
@@ -1145,8 +994,8 @@ function Dashboard() {
                         </div>
                       </li>
 
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-18">01 April 2021</time>
@@ -1216,9 +1065,9 @@ function Dashboard() {
                     "
                   >
                     <h3 className="tournament-bracket__round-title">Semifinals</h3>
-                    <ul className="tournament-bracket__list">
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-20">12 April 2021</time>
@@ -1280,8 +1129,8 @@ function Dashboard() {
                         </div>
                       </li>
 
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-20">12 April 2021</time>
@@ -1353,9 +1202,9 @@ function Dashboard() {
                     <h3 className="tournament-bracket__round-title">
                       Bronze medal game
                     </h3>
-                    <ul className="tournament-bracket__list">
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-21">22 April 2021</time>
@@ -1434,9 +1283,9 @@ function Dashboard() {
                     <h3 className="tournament-bracket__round-title">
                       Gold medal game
                     </h3>
-                    <ul className="tournament-bracket__list">
-                      <li className="tournament-bracket__item">
-                        <div className="tournament-bracket__match" tabindex="0">
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
                               <time datetime="1998-02-22">23 April 2021</time>
@@ -1515,6 +1364,8 @@ function Dashboard() {
                       </li>
                     </ul>
                   </div>
+                </div>
+              
                 </div>
               </div>
             </div>

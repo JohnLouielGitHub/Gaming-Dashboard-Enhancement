@@ -32,7 +32,7 @@ function Index() {
               >
                 <div className="position-absolute text-white  px-3">
                   <div className="bg-line"></div>
-                  <h1>
+                  <h1 className="text-start">
                     <span className="top">Login And</span>
                     <span className="color">Explore</span> Dashboard
                   </h1>

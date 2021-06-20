@@ -13,6 +13,14 @@
 .border-16 {
   border-radius: 1rem;
 }
+.border-bottom-16{
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+.border-top-16{
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
 
 .w-40 {
   width: 40%;

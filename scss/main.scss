@@ -147,3 +147,31 @@ button {
   font-family: "Barlow", sans-serif;
   font-family: "Barlow Condensed", sans-serif;
 }
+
+
+.bg-banner-1{
+  background-image: url(https://static.tweaktown.com/content/6/8/6871_1_interested-esports-heres-guide-start-viewership-journey.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.bg-banner-2{
+  background-image: url(https://esportsjunkie.com/wp-content/uploads/2020/09/01-mercedes-benz-esports-3400x1440.jpeg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+
+.bg-card{
+  background: $CARD-lINEAR;
+}
+
+.bg-none{
+  background: none;
+}

@@ -219,19 +219,6 @@ function SideMenu() {
               </a>
             </Link>
 
-            <Link href="/settings">
-              <a className={`d-block ${isActive("/settings")}`}>
-                <li id="side-menu-icon-setting-1" className="p-2">
-                  <img
-                    className="side-menu-icon me-2"
-                    src="img/Setting.svg"
-                    alt="setting-icon.svg"
-                  />
-                  Setting
-                </li>
-              </a>
-            </Link>
-
             <Link href="/">
               <a>
                 <li className="p-2">

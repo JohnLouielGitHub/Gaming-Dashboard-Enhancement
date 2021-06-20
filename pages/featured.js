@@ -13,7 +13,7 @@ function Featured() {
     {
       id: 1,
       title: "Premiere League News",
-      description: "Promotional Series of Top 10 Teams",
+      description: "Promotional Series of Top 10 teams",
       date: "GMT: July 21, 2021",
     },
     {
@@ -35,10 +35,10 @@ function Featured() {
                 <div className="col-lg-8">
                   <div className="row d-flex">
                     <div className="col-md-12">
-                      <div className="featured__banner w-100 bg-dark mb-5">
+                      <div className="featured__banner w-100 bg-banner-2 mb-5">
                         <div className="col-12 col-md-10">
                           <div className="p-3">
-                            <h2 className="h2">
+                            <h2 className="h2 text-start mb-2">
                               Spectate Live Matches Participate in Draft
                               Tournaments{" "}
                             </h2>
@@ -62,7 +62,7 @@ function Featured() {
                         <div className="d-flex align-items-center border-bottom border-1 border-light mb-2 p-2">
                           <img
                             className="w-25 h-25 me-3"
-                            src="img/teams_img/game-logo-7.png"
+                            src="img/trophy.svg"
                             alt="team-logo"
                           ></img>
                           <div>
@@ -73,7 +73,7 @@ function Featured() {
                         <div className="d-flex align-items-center border-bottom border-1 border-light mb-2 p-2">
                           <img
                             className="w-25 h-25 me-3"
-                            src="img/teams_img/game-logo-8.png"
+                            src="img/trophy.svg"
                             alt="team-logo"
                           ></img>
                           <div>
@@ -84,7 +84,7 @@ function Featured() {
                         <div className="d-flex align-items-center border-bottom border-1 border-light mb-2 p-2">
                           <img
                             className="w-25 h-25 me-3"
-                            src="img/teams_img/game-logo-9.png"
+                            src="img/trophy.svg"
                             alt="team-logo"
                           ></img>
                           <div>
@@ -95,7 +95,7 @@ function Featured() {
                         <div className="d-flex align-items-center border-bottom border-1 border-light mb-2 p-2">
                           <img
                             className="w-25 h-25 me-3"
-                            src="img/teams_img/game-logo-10.png"
+                            src="img/trophy.svg"
                             alt="team-logo"
                           ></img>
                           <div>
@@ -122,8 +122,8 @@ function Featured() {
                 </div>
                 <div className="col-lg-4 px-4 bg-dark mt-3 mt-md-0 border-16">
                   <div className="row d-flex justify-content-between align-items-center mt-3">
-                    <div className="h2 px-2 w-75">Live Matches</div>
-                    <div className="h2 w-25 text-end">
+                    <div className="h2 text-start mb-2 px-2 w-75">Live Matches</div>
+                    <div className="h2 w-25 mb-2 text-end">
                       <button className="featured__live-match-menu btn d-inline text-light border-0">
                         <i className="fas fa-bars"></i>
                       </button>
@@ -167,10 +167,10 @@ function Featured() {
                         </div>
                         <div className="row mb-3">
                           <div className="col-6">
-                            <h5 className="mx-2 text-center">Senix Team</h5>
+                            <h5 className="mx-2 text-center">Senix</h5>
                           </div>
                           <div className="col-6">
-                            <h5 className="mx-2 text-center">Pride Team</h5>
+                            <h5 className="mx-2 text-center">Pride</h5>
                           </div>
                         </div>
                         <div className="row d-flex justify-content-center">
@@ -183,6 +183,166 @@ function Featured() {
                         </div>
                       </div>
                     </div>
+                    <div className="featured__card-matches border-sp mb-2">
+                      <div className="px-2 py-3 w-100">
+                        <div className="d-flex align-items-center justify-content-around mb-3">
+                          <span className="bg-danger px-3 py-1 rounded-pill">
+                            Live
+                          </span>
+                          <div className="d-inline-block align-items-center">
+                            <div className="h5">Esports League News</div>
+                            <div className="h6">
+                              Group 10-Pre-match 1 of 5
+                            </div>
+                          </div>
+                          <a className="bg-gold text-dark p-1 rounded-circle">
+                            <i className="far fa-star"></i>
+                          </a>
+                        </div>
+                        <div className="row mb-3">
+                          <div className="d-flex align-items-center justify-content-around">
+                            <div className="rounded-circle bg-dark">
+                              <img
+                                className="featured__live-match-team"
+                                src="img/teams_img/team-logo-5.png"
+                                alt="team-1"
+                              />
+                            </div>
+                            <div className="h2">1 : 0</div>
+                            <div className="rounded-circle bg-dark">
+                              <img
+                                className="featured__live-match-team"
+                                src="img/teams_img/team-logo-6.png"
+                                alt="team-2"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="row mb-3">
+                          <div className="col-6">
+                            <h5 className="mx-2 text-center">Phoenix</h5>
+                          </div>
+                          <div className="col-6">
+                            <h5 className="mx-2 text-center">King</h5>
+                          </div>
+                        </div>
+                        <div className="row d-flex justify-content-center">
+                          <button className="btn w-40 btn-watch text-light bg-pink px-2 py-1 me-1">
+                            Watch Online
+                          </button>
+                          <button className="btn w-40 btn-watch text-light bg-dark px-2 py-1 ms-1">
+                            Match Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="featured__card-matches border-sp mb-2">
+                      <div className="px-2 py-3 w-100">
+                        <div className="d-flex align-items-center justify-content-around mb-3">
+                          <span className="bg-danger px-3 py-1 rounded-pill">
+                            Live
+                          </span>
+                          <div className="d-inline-block align-items-center">
+                            <div className="h5">Esports League News</div>
+                            <div className="h6">
+                              Group 3-Pre-Finals match 2 of 5
+                            </div>
+                          </div>
+                          <a className="bg-gold text-dark p-1 rounded-circle">
+                            <i className="far fa-star"></i>
+                          </a>
+                        </div>
+                        <div className="row mb-3">
+                          <div className="d-flex align-items-center justify-content-around">
+                            <div className="rounded-circle bg-dark">
+                              <img
+                                className="featured__live-match-team"
+                                src="img/teams_img/team-logo-2.png"
+                                alt="team-1"
+                              />
+                            </div>
+                            <div className="h2">1 : 1</div>
+                            <div className="rounded-circle bg-dark">
+                              <img
+                                className="featured__live-match-team"
+                                src="img/teams_img/team-logo-3.png"
+                                alt="team-2"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="row mb-3">
+                          <div className="col-6">
+                            <h5 className="mx-2 text-center">Doom</h5>
+                          </div>
+                          <div className="col-6">
+                            <h5 className="mx-2 text-center">Everlasting</h5>
+                          </div>
+                        </div>
+                        <div className="row d-flex justify-content-center">
+                          <button className="btn w-40 btn-watch text-light bg-pink px-2 py-1 me-1">
+                            Watch Online
+                          </button>
+                          <button className="btn w-40 btn-watch text-light bg-dark px-2 py-1 ms-1">
+                            Match Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="featured__card-matches border-sp mb-2">
+                      <div className="px-2 py-3 w-100">
+                        <div className="d-flex align-items-center justify-content-around mb-3">
+                          <span className="bg-danger px-3 py-1 rounded-pill">
+                            Live
+                          </span>
+                          <div className="d-inline-block align-items-center">
+                            <div className="h5">Esports League News</div>
+                            <div className="h6">
+                              Group 5-Practice match 4 of 5
+                            </div>
+                          </div>
+                          <a className="bg-gold text-dark p-1 rounded-circle">
+                            <i className="far fa-star"></i>
+                          </a>
+                        </div>
+                        <div className="row mb-3">
+                          <div className="d-flex align-items-center justify-content-around">
+                            <div className="rounded-circle bg-dark">
+                              <img
+                                className="featured__live-match-team"
+                                src="img/teams_img/team-logo-1.png"
+                                alt="team-1"
+                              />
+                            </div>
+                            <div className="h2">2 : 2</div>
+                            <div className="rounded-circle bg-dark">
+                              <img
+                                className="featured__live-match-team"
+                                src="img/teams_img/logo_4.png"
+                                alt="team-2"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div className="row mb-3">
+                          <div className="col-6">
+                            <h5 className="mx-2 text-center">Dragons</h5>
+                          </div>
+                          <div className="col-6">
+                            <h5 className="mx-2 text-center">Wolves</h5>
+                          </div>
+                        </div>
+                        <div className="row d-flex justify-content-center">
+                          <button className="btn w-40 btn-watch text-light bg-pink px-2 py-1 me-1">
+                            Watch Online
+                          </button>
+                          <button className="btn w-40 btn-watch text-light bg-dark px-2 py-1 ms-1">
+                            Match Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  
                   </div>
                 </div>
               </div>
