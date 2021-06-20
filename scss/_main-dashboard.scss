@@ -1,7 +1,7 @@
 body {
   overflow-y: hidden;
   overflow-x: hidden;
-  background: #18181d;
+  background: $main-background;
   color: $light;
 }
 
@@ -53,7 +53,7 @@ input {
 
 .upgrade-box {
   margin-top: 75px;
-  background-color: #36363c;
+  background-color: $CARD-lINEAR;
   max-width: 179px;
   width: 100%;
   border: none;
@@ -65,7 +65,6 @@ input {
     margin-bottom: 13px;
   }
   .upgrade-text {
-    // max-width: 103px;
     width: 100%;
     font-size: 12px;
     line-height: 16px;
@@ -76,12 +75,13 @@ input {
     font-size: 12px;
     line-height: 12px;
     border-radius: 1rem;
-    color: #0a043c;
+    color: $darker;
   }
 }
 
 .search-bar-input {
-  border: 1px solid #2c2c2c;
+  border: 1px solid $CARD-lINEAR;
+  background: $CARD-lINEAR;
 }
 
 .search-icon {
@@ -99,7 +99,7 @@ input {
 .featured-game {
   bottom: 48px;
   position: absolute;
-  background: #36363c9d;
+  background: $CARD-lINEAR;
 }
 
 .featured-game-title {
@@ -112,7 +112,7 @@ input {
 
 .video-player {
   max-height: 345px;
-  background: #36363c;
+  background: $CARD-lINEAR;
   border-radius: 1rem;
 }
 
@@ -153,13 +153,13 @@ input {
 }
 
 .card-content {
-  background-color: #36363c83;
+  background-color: $CARD-lINEAR;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
 
 .card-games {
-  background-color: #36363c;
+  background-color: $CARD-lINEAR;
   border-radius: 1rem;
 
   span {
@@ -312,4 +312,154 @@ input {
   text-align: left;
 
   color: #a0a0a0;
+}
+
+.featured__banner {
+  border-radius: 1rem;
+}
+
+.profile-user-logo {
+  width: 48px;
+  height: 48px;
+}
+
+.profile-username {
+  height: 48px;
+}
+
+.featured__card-matches {
+  border-radius: 1.5rem;
+  background-color: $active;
+}
+
+.featured__news {
+  background: $CARD-lINEAR;
+}
+
+.featured__live-match-team {
+  width: 5rem;
+  height: 5rem;
+  padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .featured__live-match-team {
+    width: 6.5rem;
+    height: 6.5rem;
+    padding: 1rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .featured__live-match-team {
+    width: 5rem;
+    height: 5rem;
+    padding: 1rem;
+  }
+}
+
+.live__card-matches {
+  background: $CARD-lINEAR;
+}
+
+.btn-color {
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-color:before {
+  content: "";
+  background: linear-gradient(45deg, #d502f1, #00b7ff, #7a00ff, #ff00c8);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 16px;
+}
+
+.btn-color:active:after {
+  background: transparent;
+}
+
+.btn-color:hover:before {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-premium {
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-premium:before {
+  content: "";
+  background: linear-gradient(45deg, #f8f3a4, #d6d8cb, #b9bdab, #4c4d48);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 16px;
+}
+
+.btn-premium:active:after {
+  background: transparent;
+}
+
+.btn-premium:hover:before {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-watch {
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.btn-watch:before {
+  content: "";
+  background: linear-gradient(45deg, #f3e304, #000000, #7843f5, #0a0130);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(1px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 16px;
+}
+
+.btn-watch:active:after {
+  background: transparent;
+}
+
+.btn-watch:hover:before {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
 }

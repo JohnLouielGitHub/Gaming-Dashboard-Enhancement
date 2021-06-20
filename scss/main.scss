@@ -1,20 +1,21 @@
 $primary: #25408f;
-$secondary: #202026;
+$secondary: #3928f5;
 $success: #3e8d63;
 $info: #13101c;
 $warning: #945707;
 $danger: #d62518;
 $light: #f8f9fa;
-$dark: #343a40;
-$darker: #202026;
-$maroon: #701c1c;
+$dark: #2b2d66;
+$darker: #6357f6;
 $faded-blue: #64d7d7;
 $gold: #ffd900;
 $pink: #f55771;
-$active: #18181d;
+$active: #181942;
+$main-background: #181942;
+$CARD-lINEAR: linear-gradient(#4d4f95, #2b2d66);
+$gray: gray;
 
 $theme-colors: (
-  "maroon": $maroon,
   "primary": $primary,
   "secondary": $secondary,
   "success": $success,
@@ -28,6 +29,8 @@ $theme-colors: (
   "pink": $pink,
   "gold": $gold,
   "active": $active,
+  "main": $main-background,
+  "gray": $gray,
 ) !default;
 
 @import "~bootstrap/scss/functions";
@@ -119,7 +122,56 @@ $theme-colors: (
 @import "extra-utilities";
 @import "sidemenu";
 @import "live";
-// @import "simplebar/dist/simplebar.css";
 @import "teams";
 @import "login";
 @import "videos";
+@import "featured";
+@import "team-profile";
+@import "register";
+@import "dashboard";
+
+.active {
+  background-color: $main-background;
+}
+
+.btn,
+button {
+  border: 0;
+}
+
+* a:hover {
+  color: gray;
+}
+
+* {
+  font-family: "Barlow", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+
+.bg-banner-1{
+  background-image: url(https://static.tweaktown.com/content/6/8/6871_1_interested-esports-heres-guide-start-viewership-journey.jpg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.bg-banner-2{
+  background-image: url(https://esportsjunkie.com/wp-content/uploads/2020/09/01-mercedes-benz-esports-3400x1440.jpeg);
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+
+.bg-card{
+  background: $CARD-lINEAR;
+}
+
+.bg-none{
+  background: none;
+}

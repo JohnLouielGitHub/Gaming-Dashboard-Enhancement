@@ -1,7 +1,8 @@
-#dashboard{
+#dashboard .teams{
     background:#181942!important;
+    
 }
-.teams h2{
+.tournaments h2{
     line-height: 50px;
     font-size: 18px;
 }
@@ -35,7 +36,7 @@ img{
     overflow:hidden;
 }
 
-.teams .dummy-box{ 
+.tournaments .dummy-box{ 
     width: 100%;
    overflow:hidden;
     height:100%;   
@@ -49,12 +50,13 @@ img{
     background: linear-gradient(#4D4F95, #2B2D66);
     padding: 20px!important;
     padding-top: 0!important;
+    border-radius: 0 0 15px 15px!important;
 }
 tr{
    
     color:rgb(204, 203, 203);
 }
-.teams button.tournament_btn{
+.tournaments button.tournament_btn{
     background-color: #E6606C!important;
     
     border-radius: 2px;
@@ -62,14 +64,14 @@ tr{
     font-size: 13px;
     padding:5px 15px;
 }
-.teams .live_btn{
+.tournaments .live_btn{
     margin-top: 12px;
     border-radius: 5px;
     font-size: 12px;
     padding: 3px 15px;
     
 }
-.teams .live_btn {
+.tournaments .live_btn {
     background: linear-gradient(-45deg, #e42222, #eb5a35, #e42222, #c02600);
     background-size: 400% 400%;
     animation: gradient 5s ease infinite;
@@ -86,16 +88,16 @@ tr{
       background-position: 0% 50%;
     }
   }
-.teams th .banner{
+.tournaments th .banner{
     max-width:150px;
     min-width: 100%;
     height:50px;
     object-fit: cover;
 }
-.teams img.flag{
+.tournaments img.flag{
     width: 25px!important;
 }
-.teams img.live_icon{
+.tournaments img.live_icon{
     width: 50px!important;
     height: 50px!important;
 }
@@ -242,7 +244,7 @@ h2 {
   height: 100%;
   min-height: 100%;
   border-bottom: 1px dashed #e5e5e5;
-  padding-bottom: 2em;
+  
   margin-bottom: 2em;
   transition: padding 0.2s ease-in-out, margin 0.2s ease-in-out;
   
@@ -270,7 +272,7 @@ h2 {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  padding: 2% 0;
+  padding-bottom: 0!important;
   width: 48%;
   transition: padding 0.2s linear;
   
@@ -368,7 +370,7 @@ h2 {
   display: flex;
   width: 100%;
   background-color: #4D4F95;
-  padding: 0.5em;
+  padding: 0 0.5em;
   border: 1px solid transparent;
   border-radius: 0.1em;
   box-shadow: 0 2px 0 0 #e5e5e5;
@@ -618,10 +620,10 @@ h2 {
   font-size: 0.95rem;
   background-color: #F5F5F5;
   border-color: spin(shade(#F5F5F5, 10%), -10);
-  color:rgb(36, 35, 35)!important;
+  color:rgb(12, 12, 12)!important;
   
   .tournament-bracket__team--winner & {
-    background-color: #FFF176;
+    background: yellow;
     border-color: spin(shade(#FFF176, 2%), -10);
    
   }
@@ -647,6 +649,8 @@ h2 {
     height: 30px;
 }
 .bracket-container{
-    padding-right: 20px;
     height:250px!important;
+    
 }
+
+

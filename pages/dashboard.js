@@ -1,331 +1,1384 @@
 import Link from "next/link";
+import Header from "../components/Header";
+import SimpleBarReact from "simplebar-react";
+import "simplebar/src/simplebar.css";
 
 function Dashboard() {
   return (
     <>
-      <main id="dashboard" className="vh-100 pt-4 ps-2 pe-2 pe-lg-0 ms-auto">
-        <section id="widgets" data-simplebar="true">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-md-8">
-                <div className="row">
-                  <div
-                    className="
-                profile-search
-                d-flex
-                justify-content-between
-                align-items-center
-              "
-                  >
-                    <button
-                      className="off-canvas-burger btn btn-primary d-block d-xl-none"
-                      type="button"
-                      data-bs-toggle="offcanvas"
-                      data-bs-target="#offcanvasExample"
-                      aria-controls="offcanvasExample"
-                    >
-                      <i
-                        className="fas fa-bars"
-                        data-bs-toggle="offcanvas"
-                        data-bs-target="#offcanvasExample"
-                        aria-controls="offcanvasExample"
-                      ></i>
-                    </button>
-
-                    <h2 className="profile-username h4 w-100 ms-3 mb-0 mt-0 m-xl-0">
-                      Hello X-travaganza !
-                    </h2>
-
-                    <div className="search-bar w-100 position-relative">
-                      <input
-                        className="
-                    search-bar-input
-                    w-100
-                    ps-4
-                    p-2
-                    rounded
-                    bg-secondary
-                  "
-                        type="text"
-                        placeholder="Search..."
-                      />
-                      <span>
-                        <img
-                          className="
-                      search-icon
-                      position-absolute
-                      top-50
-                      translate-middle-y
-                    "
-                          src="img/search.png"
-                          alt="search.png"
-                        />
-                      </span>
-                    </div>
-                  </div>
-                </div>
-                <div className="row">
-                  <div className="col-xxl-12 w-100 h-100 cards mt-3">
-                    <div className="w-100 h-100 video">
-                      <video
-                        className="w-100 h-75 video-player"
-                        id="video"
-                        poster="//shaka-player-demo.appspot.com/assets/poster.jpg"
-                        controls
-                        autoPlay
-                      ></video>
-
-                      <div className="featured-game w-100 p-2">
-                        <h1 className="featured-game-title">
-                          Company of Heroes 2
-                        </h1>
-                        <div className="featured-game-desc fs-6">
-                          Company of Heroes 2 is a real-time strategy video game
-                          developed by Relic Entertainment and published by Sega
-                          for Microsoft Windows, OS X, and Linux.
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 mt-3">
-                    <div
-                      className="
-                  card-games
-                  w-100
-                  h-100
-                  card-game-preview card-image-1
-                  d-flex
-                  align-items-end
-                "
-                    >
-                      <div className="card-content w-100 rounded-bottom-3 p-3">
-                        <h4 className="card-head mb-2">
-                          Asssassin's Creed Vol.3
-                        </h4>
-                        <span>20k Playing &nbsp; 4k Love this game</span>
-                        <p className="card-description mt-2 fs-6">
-                          Assassin's Creed is an action-adventure and stealth
-                          video game series created by Patrice Désilets...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="col-sm-6 mt-3">
-                    <div
-                      className="
-                  card-games
-                  w-100
-                  h-100
-                  card-game-preview card-image
-                  d-flex
-                  align-items-end
-                  card-image-2
-                "
-                    >
-                      <div className="card-content w-100 p-3">
-                        <h4 className="card-head mb-2">PUBG MOBILE</h4>
-                        <span>1M Playing &nbsp; 321k Love this game</span>
-                        <p className="card-description mt-2 fs-6">
-                          PUBG is a game with the battle royale genre, where
-                          players can play with 100 people online at once...
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+  {" "}
+  <main id="dashboard" className="vh-100 pt-4 ps-2 pe-2 pe-lg-0 ms-auto tournaments">
+      <section id="widgets" data-simplebar="true">
+      <SimpleBarReact forceVisible="y" autoHide={false} className="h-100">
+        <div className="container-fluid">
+          <div className="row">
+              <Header />
+            <div className="col-md-8">
+             
+              <div className="row mb-3">
+                <img
+                  className="dota-main-logo"
+                  src="img/teams_img/dota-wide.png"
+                  alt=""
+                />
               </div>
-              <div className="col-md-4">
+            </div>
+            </div>
+          
+          </div>
+
+          <div className="row d-flex flex-wrap bottom-row mt-3">
+            <div className="col col-12 col-lg-7 h-100  border-bottom-16">
+              <div className="dummy-box">
+                <div className="teams-box-header d-flex justify-content-between">
+                  <h2>Tournaments</h2>
+                </div>
+                <SimpleBarReact forceVisible="y" autoHide={false} className="h-100">
+                <div>
+                  <div id="scroller" className="h-100 table-container">
+                    <table
+                      className="table table-borderless caption-top overflow-hidden border-bottom-16"
+                    >
+                      <tbody className="overflow-scroll">
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota2.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱250,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota-1.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/us_flag.gif"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 US</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">$10,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota2.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img className="banner"
+                            src="img/teams_img/dota-1.jpg" alt="" />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/uk_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">$10,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota2.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota-1.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota2.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img className="banner"
+                            src="img/teams_img/dota-1.jpg" alt="" />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota2.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img className="banner"
+                            src="img/teams_img/dota-1.jpg" alt="" />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota2.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">
+                            <img
+                              className="banner"
+                              src="img/teams_img/dota-1.jpg"
+                              alt=""
+                            />
+                          </th>
+                          <td
+                            className="d-flex align-items-center h-100 flex-column"
+                          >
+                            <div>
+                              <img
+                                className="flag"
+                                src="img/teams_img/ph_flag.jpg"
+                                alt=""
+                              />
+                              <span className="text-white tournament-name"
+                                >Dota 2 PH</span
+                              >
+                            </div>
+                            <span className="d-block text-white-50 table-text"
+                              >08/25/2021</span
+                            >
+                          </td>
+                          <td>
+                            <div className="table-text">Prize pool</div>
+                            <span className="d-block text-white">₱100,000</span>
+                          </td>
+                          <td className="d-flex flex-column justify-content-center">
+                            <div className="table-text">Game mode</div>
+                            <span className="d-block text-white">5v5</span>
+                          </td>
+                          <td className="text-end">
+                            <button
+                              className="
+                                tournament_btn
+                                bg-blue
+                                border-0
+                                mt-2
+                                text-uppercase text-white
+                              "
+                            >
+                              join tournament
+                            </button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+                  </SimpleBarReact>
+              </div>
+            </div>
+
+
+            <div className="col col-12 col-lg-5 h-100 mt-3 mt-lg-0 border-bottom-16">
+              <div className="border-16">
+                <div
+                  className="
+                    teams-box-header
+                    header-live
+                    d-flex
+                    justify-content-between
+                  "
+                >
+                  <h2>Live Now</h2>
+                </div>
+                <SimpleBarReact forceVisible="y" autoHide={false} className="h-100">
                 <div
                   id="scroller"
                   data-simplebar
-                  data-simplebar-auto-hide="true"
+                  className="simpl-bar live-box-scroll border-bottom-16"
                 >
-                  <div className="recent-games mt-4 mt-md-0">
-                    <div className="d-flex justify-content-between">
-                      <div className="recent-games-head">Recent Games</div>
-                      <div>
-                        <a href="#">
-                          <i className="fas fa-long-arrow-alt-right"></i>
-                        </a>
-                      </div>
-                    </div>
-
-                    <div className="list-games">
-                      <div className="game">
-                        <div
-                          className="
-                      d-flex
-                      justify-content-between
-                      align-items-center
-                    "
-                        >
-                          <div className="d-flex align-items-center">
+                  <div className="h-100">
+                    <table className="table table-borderless live-table border-bottom-16">
+                      <tbody>
+                        <tr>
+                          <th scope="row">1</th>
+                          <td className="text-start">
                             <img
-                              src="https://www.ladgeek.com/wp-content/uploads/2020/08/Fall-Guys-Ultimate-Knockout-PC-Version-Full-Game-Setup-Free-Download.jpg.webp"
-                              alt="Fall-Guys-Ultimate-Knockout-PC-Version-Full-Game-Setup-Free-Download.jpg.webp"
-                              className="game-preview"
+                              className="live_icon"
+                              src="img/teams_img/logo_3.png"
+                              alt=""
                             />
-                            <div className="game-info">
-                              <div className="game-title">Fall Guys Beta</div>
-                              <div className="version">Version 14.2</div>
-                            </div>
-                          </div>
-                          <a href="#">
-                            <i className="fas fa-ellipsis-v"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="game">
-                        <div
-                          className="
-                      d-flex
-                      justify-content-between
-                      align-items-center
-                    "
-                        >
-                          <div className="d-flex align-items-center">
+                            Subsonic
+                          </td>
+                          <td className="text-center">
+                            <button
+                              className="
+                                live_btn
+                                bg-danger
+                                border-0
+                                text-uppercase text-white
+                              "
+                            >
+                              live
+                            </button>
+                          </td>
+                          <td className="text-end">
+                            Unbreakable
                             <img
-                              src="https://tcf.wuki.com/game/16000/15926/320x320/slither-io.webp"
-                              alt="slither-io.webp"
-                              className="game-preview"
+                              className="live_icon"
+                              src="img/teams_img/logo_1.png"
+                              alt=""
                             />
-                            <div className="game-info">
-                              <div className="game-title">Slither.io</div>
-                              <div className="version">Version 11.21</div>
-                            </div>
-                          </div>
-                          <a href="#">
-                            <i className="fas fa-ellipsis-v"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="game">
-                        <div
-                          className="
-                      d-flex
-                      justify-content-between
-                      align-items-center
-                    "
-                        >
-                          <div className="d-flex align-items-center">
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">2</th>
+                          <td className="text-start">
                             <img
-                              src="https://www.hebergementwebs.com/image/b8/b8e8a31bf26f2944552bc38c5781e078.webp/how-to-change-your-name-on-robloxhow-to-change-your-name-on-roblox-0.webp"
-                              alt="how-to-change-your-name-on-robloxhow-to-change-your-name-on-roblox-0.webp"
-                              className="game-preview"
+                              className="live_icon"
+                              src="img/teams_img/logo_2.png"
+                              alt=""
                             />
-                            <div className="game-info">
-                              <div className="game-title">Roblox</div>
-                              <div className="version">Version 1.12</div>
-                            </div>
-                          </div>
-                          <a href="#">
-                            <i className="fas fa-ellipsis-v"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <div className="game">
-                        <div
-                          className="
-                      d-flex
-                      justify-content-between
-                      align-items-center
-                    "
-                        >
-                          <div className="d-flex align-items-center">
+                            Ultra
+                          </td>
+                          <td className="text-center">
+                            <button
+                              className="
+                                live_btn
+                                bg-danger
+                                border-0
+                                text-uppercase text-white
+                              "
+                            >
+                              live
+                            </button>
+                          </td>
+                          <td className="text-end">
+                            Wolves
                             <img
-                              src="https://image.winudf.com/v2/image1/Y29tLm1hcnRpbm1hZ25pLm1la29yYW1hX3NjcmVlbl84XzE2MDQ5MTMyMzZfMDU3/screen-8.jpg?fakeurl=1&type=.jpg"
-                              alt="screen-8.jpg?fakeurl=1&type=.jpg"
-                              className="game-preview"
+                              className="live_icon"
+                              src="img/teams_img/logo_4.png"
+                              alt=""
                             />
-                            <div className="game-info">
-                              <div className="game-title">Mekorama</div>
-                              <div className="version">Version 1.7.2</div>
-                            </div>
-                          </div>
-                          <a href="#">
-                            <i className="fas fa-ellipsis-v"></i>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="notification-menu mt-4 mb-4 h-100">
-                    <div
-                      className="
-                  notification-menu-head
-                  d-flex
-                  justify-content-between
-                  align-items-center
-                "
-                    >
-                      <div className="h3 m-0">Notification</div>
-                      <a href="#" className="notif-view-all">
-                        View All
-                      </a>
-                    </div>
-
-                    <div className="notifications">
-                      <div className="notif d-flex justify-content-between">
-                        <div className="notif-description">
-                          <h4>Someone Wants to join</h4>
-                          <p className="time">5:32 pm, January 29</p>
-                        </div>
-                        <div
-                          className="
-                      kebab
-                      d-flex
-                      align-items-center
-                      justify-content-center
-                    "
-                        >
-                          <a href="#">
-                            <i className="fas fa-ellipsis-h"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <button
-                        className="
-                    btn btn-primary
-                    pt-0
-                    pb-0
-                    ps-3
-                    pe-3
-                    rounded-pill
-                    mb-27
-                  "
-                      >
-                        Group
-                      </button>
-                      <div className="notif d-flex justify-content-between">
-                        <div className="notif-description">
-                          <h4>Force The Game</h4>
-                          <p className="time">2:11 pm, January 30</p>
-                        </div>
-                        <div
-                          className="
-                      kebab
-                      d-flex
-                      align-items-center
-                      justify-content-center
-                    "
-                        >
-                          <a href="#">
-                            <i className="fas fa-ellipsis-h"></i>
-                          </a>
-                        </div>
-                      </div>
-                      <button className="btn btn-fb pt-0 pb-0 ps-3 pe-3 rounded-pill">
-                        Update
-                      </button>
-                    </div>
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">3</th>
+                          <td className="text-start">
+                            <img
+                              className="live_icon"
+                              src="img/teams_img/team-logo-4.png"
+                              alt=""
+                            />
+                            Ghouls
+                          </td>
+                          <td className="text-center">
+                            <button
+                              className="
+                                live_btn
+                                bg-danger
+                                border-0
+                                text-uppercase text-white
+                              "
+                            >
+                              live
+                            </button>
+                          </td>
+                          <td className="text-end">
+                            Everlasting
+                            <img
+                              className="live_icon"
+                              src="img/teams_img/team-logo-3.png"
+                              alt=""
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">4</th>
+                          <td className="text-start">
+                            <img
+                              className="live_icon"
+                              src="img/teams_img/logo_6.png"
+                              alt=""
+                            />
+                            Eagles
+                          </td>
+                          <td className="text-center">
+                            <button
+                              className="
+                                live_btn
+                                bg-danger
+                                border-0
+                                text-uppercase text-white
+                              "
+                            >
+                              live
+                            </button>
+                          </td>
+                          <td className="text-end">
+                            King
+                            <img
+                              className="live_icon"
+                              src="img/teams_img/game-logo-9.png"
+                              alt=""
+                            />
+                          </td>
+                        </tr>
+                        <tr>
+                          <th scope="row">5</th>
+                          <td className="text-start">
+                            <img
+                              className="live_icon"
+                              src="img/teams_img/logo_5.png"
+                              alt=""
+                            />
+                            Imperial
+                          </td>
+                          <td className="text-center">
+                            <button
+                              className="
+                                live_btn
+                                bg-danger
+                                border-0
+                                text-uppercase text-white
+                              "
+                            >
+                              live
+                            </button>
+                          </td>
+                          <td className="text-end">
+                            Senix
+                            <img
+                              className="live_icon"
+                              src="img/teams_img/game-logo-7.png"
+                              alt=""
+                            />
+                          </td>
+                        </tr>
+                        
+                      </tbody>
+                    </table>
                   </div>
                 </div>
+                </SimpleBarReact>
               </div>
             </div>
           </div>
-        </section>
-      </main>
+          <div className="row mt-5">
+            <div className="col col-7 d-flex flex-wrap mb-5 bg-card border-bottom-16 border-top-16 bracket-col">
+              <div className="bracket-container mx-auto">
+               <div className="bracket-box p-2">
+               <div className="bg-card">
+                <h1 className="text-center h1">Season 1 Tournament Bracket</h1>
+                <div className="text-center h3 mb-0">Dota 2 April 29, 2021 Tournament - Manila, Philippines</div>
+                </div>
+                <div className="bg-card">
+                <div className="tournament-bracket tournament-bracket--rounded pt-3 ">
+                  <div
+                    className="
+                      tournament-bracket__round
+                      tournament-bracket__round--quarterfinals
+                    "
+                  >
+                    <h3 className="tournament-bracket__round-title">
+                      Quarterfinals
+                    </h3>
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-18">01 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_5.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-ca
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >4</span
+                                  >
+                                </td>
+                              </tr>
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_4.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-kz
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >1</span
+                                  >
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-18">01 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_6.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-cz
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >4</span
+                                  >
+                                </td>
+                              </tr>
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_1.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-us
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >1</span
+                                  >
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-18">01 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/dota-logo.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-fi
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >2</span
+                                  >
+                                </td>
+                              </tr>
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_2.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-se
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >1</span
+                                  >
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-18">01 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/team-logo-3.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-ru
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >4</span
+                                  >
+                                </td>
+                              </tr>
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/team-logo-6.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-by
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >1</span
+                                  >
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="
+                      tournament-bracket__round
+                      tournament-bracket__round--semifinals
+                    "
+                  >
+                    <h3 className="tournament-bracket__round-title">Semifinals</h3>
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-20">12 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_5.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-ca
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >1</span
+                                  >
+                                </td>
+                              </tr>
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_6.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-cz
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >2</span
+                                  >
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-20">12 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/dota-logo.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-fi
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >4</span
+                                  >
+                                </td>
+                              </tr>
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/team-logo-3.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-ru
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >7</span
+                                  >
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="
+                      tournament-bracket__round
+                      tournament-bracket__round--bronze
+                    "
+                  >
+                    <h3 className="tournament-bracket__round-title">
+                      Bronze medal game
+                    </h3>
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-21">22 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_5.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-fi
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >3</span
+                                  >
+                                  <span
+                                    className="
+                                      tournament-bracket__medal
+                                      tournament-bracket__medal--bronze
+                                      fa fa-trophy
+                                    "
+                                    aria-label="Bronze medal"
+                                  ></span>
+                                </td>
+                              </tr>
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/dota-logo.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-ca
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >2</span
+                                  >
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div
+                    className="
+                      tournament-bracket__round tournament-bracket__round--gold
+                    "
+                  >
+                    <h3 className="tournament-bracket__round-title">
+                      Gold medal game
+                    </h3>
+                    <ul className="tournament-bracket__list px-0 bg-card">
+                      <li className="tournament-bracket__item bg-none ps-0">
+                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                          <table className="tournament-bracket__table">
+                            <caption className="tournament-bracket__caption">
+                              <time datetime="1998-02-22">23 April 2021</time>
+                            </caption>
+                            <thead className="sr-only">
+                              <tr>
+                                <th>Country</th>
+                                <th>Score</th>
+                              </tr>
+                            </thead>
+                            <tbody className="tournament-bracket__content">
+                              <tr
+                                className="
+                                  tournament-bracket__team
+                                  tournament-bracket__team--winner
+                                "
+                              >
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/logo_6.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-cz
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >1</span
+                                  >
+                                  <span
+                                    className="
+                                      tournament-bracket__medal
+                                      tournament-bracket__medal--gold
+                                      fa fa-trophy
+                                    "
+                                    aria-label="Gold medal"
+                                  ></span>
+                                </td>
+                              </tr>
+                              <tr className="tournament-bracket__team">
+                                <td className="tournament-bracket__country">
+                                  <img
+                                    src="img/teams_img/team-logo-3.png"
+                                    alt=""
+                                  />
+                                  <span
+                                    className="
+                                      tournament-bracket__flag
+                                      flag-icon flag-icon-ru
+                                    "
+                                    aria-label="Flag"
+                                  ></span>
+                                </td>
+                                <td className="tournament-bracket__score">
+                                  <span className="tournament-bracket__number"
+                                    >0</span
+                                  >
+                                  <span
+                                    className="
+                                      tournament-bracket__medal
+                                      tournament-bracket__medal--silver
+                                      fa fa-trophy
+                                    "
+                                    aria-label="Silver medal"
+                                  ></span>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              
+                </div>
+               </div>
+              </div>
+            </div>
+          </div>
+      </SimpleBarReact>
+      </section>
+    </main>{" "}
     </>
   );
 }
+
 export default Dashboard;
