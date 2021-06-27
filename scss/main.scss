@@ -178,3 +178,11 @@ button {
 .bg-fade{
   background: rgba($color: #000, $alpha: 0.85);
 }
+
+.bg-fade-1{
+  background: rgba($color: #000, $alpha: 0.50);
+}
+
+.bg-danger:hover{
+  background-color: #ee9f99;
+}

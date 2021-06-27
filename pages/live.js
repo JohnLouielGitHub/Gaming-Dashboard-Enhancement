@@ -36,10 +36,11 @@ function Live() {
                   </div>
                   <div className="col-12">
                   <div className="live__card-matches border-0 border-16 mt-2 mb-2 border-sp mx-1">
-                      <div className="px-2 py-3 w-100 h-100">
-                        <div className="d-flex align-items-center justify-content-around mb-3">
+                      <div className="py-3 w-100 h-100">
+                        <div className="mb-3">
+                          <div className="bg-fade-1 d-flex align-items-center justify-content-around py-2">
                           <div className="col-4 text-center">
-                            <span className="bg-danger px-3 py-1 rounded-pill">
+                            <span className=" px-3 py-1 text-danger border border-danger">
                             Live Now!
                           </span></div>
                           <div className="col-4 text-center">
@@ -56,6 +57,8 @@ function Live() {
                           </a>
                           </div>
                           
+                          </div>
+
                          
                           
                         </div>
@@ -86,7 +89,7 @@ function Live() {
                         </div>
                         <div className="row">
                           <div className=" d-flex justify-content-around align-items-center">
-                          <div>
+                          <div className="text-start">
                               <img className="live__teams ms-1" src="img/teams_img/photo-1.jpg" alt="red-team"/>
                               <img className="live__teams ms-1" src="img/teams_img/photo-2.jpg" alt="red-team"/>
                               <img className="live__teams ms-1" src="img/teams_img/photo-3.jpg" alt="red-team"/>
@@ -103,7 +106,7 @@ function Live() {
                             <div className="h5">
                               BLUE
                             </div>
-                            <div>
+                            <div className="text-end">
                               <img className="live__teams ms-1" src="img/teams_img/photo-10.jpg" alt="blue-team"/>
                               <img className="live__teams ms-1" src="img/teams_img/photo-9.jpg" alt="red-team"/>
                               <img className="live__teams ms-1" src="img/teams_img/photo-8.jpg" alt="red-team"/>

@@ -34,17 +34,21 @@
   border-radius: 5px;
 }
 .tp__tourna {
-  background-color: #202026;
+  background: $CARD-lINEAR;
 }
 
 .tp__clan-avatar img{
-    display: block;
-    width: 300px;
+  width: 30%;
+  height: 30%;
     border-radius: 50%;
+    object-fit: cover;
 }
 .tp__clan-cover img {
   display: block;
   width: 300px;
+  max-height: 150px;
+  object-fit: cover;
+  background-position: center center;
 }
 .tp__roster-img {
     max-width: 175px;

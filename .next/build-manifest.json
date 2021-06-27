@@ -29,30 +29,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/dashboard": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/dashboard.js"
-    ],
     "/featured": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/featured.js"
-    ],
-    "/live": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/live.js"
-    ],
-    "/team-profile": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/team-profile.js"
-    ],
-    "/teams": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/teams.js"
     ]
   },
   "ampFirstPages": []

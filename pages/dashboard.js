@@ -789,15 +789,15 @@ function Dashboard() {
               </div>
             </div>
           </div>
-          <div className="row mt-5 ">
+          <div className="row mt-2 ">
             <div className="col col-12 d-flex flex-wrap mb-5 bg-card border-bottom-16 border-top-16 bracket-col w-100">
               <div className="bracket-container w-100 ">
                <div className="bracket-box p-2 w-100">
-               <div className="bg-card w-100">
+               <div className="bg-card w-100 border-top-16">
                 <h1 className="text-center h1">Season 1 Tournament Bracket</h1>
                 <div className="text-center h3 mb-0">Dota 2 April 29, 2021 Tournament - Manila, Philippines</div>
                 </div>
-                <div className="bg-card">
+                <div className="bg-card border-bottom-16">
                 <div className="tournament-bracket tournament-bracket--rounded pt-3 ">
                   <div
                     className="

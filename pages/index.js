@@ -69,7 +69,7 @@ function Index() {
                     </div>
 
                     <h2 className="login_h2 mb-4 text-white">
-                      Sign in to your account
+                      (Sign in to your account) / Just press the sign-in for now.
                     </h2>
                   </div>
                   <div className="mb-3 mb-md-4">
