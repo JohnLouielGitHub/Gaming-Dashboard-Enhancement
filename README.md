@@ -37,7 +37,7 @@
 ## 🚀 Languages and Tools Used:
 
 <p align="left"> 
-    <a> <img src="/img/" height="50px" width="60px"/> </a> 
+    <a> <img src="https://user-images.githubusercontent.com/80525007/123545785-83b4f580-d78c-11eb-850a-eb223c9351d2.png" height="50px" width="60px"/> </a> 
     <a> <img src="https://img.icons8.com/color/48/000000/html-5.png" height="50px" width="60px"/> </a> 
     <a> <img src="https://img.icons8.com/color/48/000000/css3.png" height="50px" width="60px"/> </a>
     <a> <img src="https://img.icons8.com/color/48/000000/git.png" height="50px" width="60px"/> </a> 
