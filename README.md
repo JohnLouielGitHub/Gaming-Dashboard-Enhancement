@@ -3,7 +3,9 @@
 ## 💻 To Visit the site, click the link below
 
 <a href="https://crischoy23.github.io/DUELIST/">visit Duelist Landing Page</a>
+<br>
 <a href="https://gaming-dashboard-enhancement-6smcnvmzi-johnlouielgithub.vercel.app/">Dashboard login page</a>
+<br>
 <a href="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement">Git hub repository</a>
 
 <b>Static Landing Page Web Design
