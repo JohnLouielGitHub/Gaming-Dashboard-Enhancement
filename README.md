@@ -6,11 +6,11 @@ https://crischoy23.github.io/DUELIST/
 
 <b>Static Landing Page Web Design
 
-## 👩 AboutThe Project
+##  About The Project
 
-- 🌱
+- 🌱 This is our/my second project on KodeGo
 
-- 👨‍💻
+- 👨‍💻 This project was built with implementation using react.js & next.js etc.
 
 ## ~Collaborators
 
