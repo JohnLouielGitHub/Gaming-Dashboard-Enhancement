@@ -1,8 +1,8 @@
 ## 🔲DUELIST Website(fictional-educational purposes only)
 
-<img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner-1.png" height="300px" width="25%"/> 
 <img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner.png" height="300px" width="50%"/> 
-<img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner-2.png" height="300px" width="25%"/> 
+<img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner-1.png" height="300px" width="50%"/> 
+<img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner-2.png" height="300px" width="50%"/> 
 
 
 ## 💻 To Visit the site, click the link below
