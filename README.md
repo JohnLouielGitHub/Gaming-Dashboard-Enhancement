@@ -1,5 +1,5 @@
-## 🔲DUELIST Website(fictional-educational purposes only)
-<a href="https://gaming-dashboard-enhancement-6smcnvmzi-johnlouielgithub.vercel.app/">Dashboard login page</a> <br>
+## 🔲DUELIST Website Dashboard Project(fictional-educational purposes only)
+<a href="https://gaming-dashboard-enhancement-6smcnvmzi-johnlouielgithub.vercel.app/">Visit the site click me</a> <br>
 <img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner.png" height="300px" width="50%"/> 
 <img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner-1.png" height="300px" width="50%"/> 
 <img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner-2.png" height="300px" width="50%"/> 
