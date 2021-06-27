@@ -135,7 +135,7 @@ function Featured() {
                     <div className="featured__card-matches border-sp mb-2">
                       <div className="px-2 py-3 w-100">
                         <div className="d-flex align-items-center justify-content-around mb-3">
-                          <span className="bg-danger px-3 py-1 rounded-pill">
+                          <span className="border border-danger text-danger px-3 py-1 rounded-pill">
                             Live
                           </span>
                           <div className="d-inline-block align-items-center">
@@ -188,7 +188,7 @@ function Featured() {
                     <div className="featured__card-matches border-sp mb-2">
                       <div className="px-2 py-3 w-100">
                         <div className="d-flex align-items-center justify-content-around mb-3">
-                          <span className="bg-danger px-3 py-1 rounded-pill">
+                          <span className="border border-danger text-danger px-3 py-1 rounded-pill">
                             Live
                           </span>
                           <div className="d-inline-block align-items-center">
@@ -241,7 +241,7 @@ function Featured() {
                     <div className="featured__card-matches border-sp mb-2">
                       <div className="px-2 py-3 w-100">
                         <div className="d-flex align-items-center justify-content-around mb-3">
-                          <span className="bg-danger px-3 py-1 rounded-pill">
+                          <span className="border border-danger text-danger px-3 py-1 rounded-pill">
                             Live
                           </span>
                           <div className="d-inline-block align-items-center">
@@ -294,7 +294,7 @@ function Featured() {
                     <div className="featured__card-matches border-sp mb-2">
                       <div className="px-2 py-3 w-100">
                         <div className="d-flex align-items-center justify-content-around mb-3">
-                          <span className="bg-danger px-3 py-1 rounded-pill">
+                          <span className="border border-danger text-danger px-3 py-1 rounded-pill">
                             Live
                           </span>
                           <div className="d-inline-block align-items-center">
