@@ -1,5 +1,8 @@
 ## 🔲DUELIST Website(fictional-educational purposes only)
 
+<img src="https://github.com/JohnLouielGitHub/Gaming-Dashboard-Enhancement/blob/main/public/img/readme-banner.png" height="300px" width="100%"/> 
+
+
 ## 💻 To Visit the site, click the link below
 
 <a href="https://crischoy23.github.io/DUELIST/">visit Duelist Landing Page</a>
