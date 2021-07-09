@@ -1,6 +1,9 @@
 import Link from "next/link";
+import Script from "next/script";
 
 function Header() {
+  <Script src="js/active.js"></Script>
+  let user = "Username";
   return (
     <>
       {" "}
@@ -62,7 +65,7 @@ function Header() {
           <div className="d-flex justify-content-between align-items-center">
             
             <h2 className=" h4 w-100 ms-3 mb-0 mt-0 m-xl-0 px-3 text-end ">
-              X-travaganza
+             {user}
             </h2>
             <img className="profile-user-logo ms-2" src="img/teams_img/logo_6.png"/>
             </div>

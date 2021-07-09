@@ -1,6 +1,20 @@
 import Link from "next/link";
-
+import Script from "next/script";
+import Login from "../public/js/active";
 function Index() {
+  // <Script src="js/active.js"></Script>
+
+  // const handleClick = () => {
+  //   let user = document.getElementById("username").value;
+  //   let pass = document.getElementById("password").value;
+  //   // if(user === pass){
+  //   //   console.log("Logged in as " + user)
+  //   // }
+  //   event.preventDefault()
+  //   console.log("I clicked on the Featured Page" + user)
+  // };
+
+
   return (
     <>
       <main id="login">
@@ -33,17 +47,17 @@ function Index() {
                 <div className="position-absolute text-white  px-3">
                   <div className="bg-line"></div>
                   <h1 className="text-start">
-                    <span className="top">Login And</span>
-                    <span className="color">Explore</span> Dashboard
+                    <span className="color pt-2">Explore</span> Duelist and Join the crowd!
                   </h1>
                   <p>
                     Explore the world around you with us with comfortable and
-                    quality services, let's join immediately and get the
+                    quality services, what are you waiting for join now! Get exclusive
                     benefits.
                   </p>
                 </div>
               </div>
             </div>
+            
             <div className="col login_col col-12 col-xl-6">
               <form
                 className="
@@ -56,7 +70,6 @@ function Index() {
                 align-items-center
                 justify-content-center
               "
-    
               >
                 <div className="inner">
                   <div>
@@ -68,13 +81,13 @@ function Index() {
                     />
                     </div>
 
-                    <h2 className="login_h2 mb-4 text-white">
+                    <h2 className="login_h2 mb-2 text-white">
                       (Sign in to your account) / Just press the sign-in for now.
                     </h2>
                   </div>
                   <div className="mb-3 mb-md-4">
                     <label
-                      htmlFor="exampleInputEmail1"
+                      htmlFor="username"
                       className="form-label text-white"
                     >
                       <span>
@@ -83,15 +96,14 @@ function Index() {
                       &nbsp;Username
                     </label>
                     <input
-                      type="email"
+                      type="text"
                       className="form-control"
-                      id="exampleInputEmail1"
-                      aria-describedby="emailHelp"
+                      id="username"
                       placeholder="Username..."
                     />
                   </div>
 
-                  <div className="mb-3 mb-md-4 mb-xl-2 mb-xxl-4">
+                  <div className="mb-3 mb-md-4 mb-xl-2">
                     <label
                       htmlFor="exampleInputPassword1"
                       className="form-label text-white"
@@ -102,6 +114,7 @@ function Index() {
                       &nbsp;Password
                     </label>
                     <input
+                      id="password"
                       type="password"
                       className="form-control"
                       id="exampleInputPassword1"
@@ -115,7 +128,7 @@ function Index() {
                     forgot
                     d-flex
                     justify-content-end
-                    mb-3 mb-md-4 mb-xl-2 mb-xxl-4
+                    mb-3 mb-md-4 mb-xl-2
                   "
                   >
                     <a className="login_a" href="#">
@@ -123,16 +136,17 @@ function Index() {
                     </a>
                   </div>
 
-                  <div className="upper-btn mb-md-4">
-                    <Link href="/featured">
+                  <div className="upper-btn mb-md-2">
+                  <Link href="/featured">
                     <button
+                      id="signin"
                       type="submit"
                       className="btn-color w-100 bg-darker border-16 px-3 py-1 text-center"
+                      // onClick={() => handleClick()}
                     >
                       Sign in
                     </button>
-                    </Link>
-    
+                  </Link>
                   </div>
 
                   <div
@@ -142,7 +156,7 @@ function Index() {
                     mb-3
                     d-flex
                     justify-content-center
-                    mb-md-4 mb-xl-2 mb-xxl-4
+                    mb-md-4 mb-xl-2
                   "
                   >
                     Or sign in with
@@ -210,7 +224,10 @@ function Index() {
             </div>
           </div>
         </div>
+
+       
       </main>
+
     </>
   );
 }

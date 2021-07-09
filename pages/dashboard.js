@@ -810,10 +810,10 @@ function Dashboard() {
                     </h3>
                     <ul className="tournament-bracket__list px-0 bg-card">
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-18">01 April 2021</time>
+                              <time dateTime="1998-02-18">01 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
@@ -873,10 +873,10 @@ function Dashboard() {
                       </li>
 
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-18">01 April 2021</time>
+                              <time dateTime="1998-02-18">01 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
@@ -935,10 +935,10 @@ function Dashboard() {
                         </div>
                       </li>
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-18">01 April 2021</time>
+                              <time dateTime="1998-02-18">01 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
@@ -998,10 +998,10 @@ function Dashboard() {
                       </li>
 
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-18">01 April 2021</time>
+                              <time dateTime="1998-02-18">01 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
@@ -1070,10 +1070,10 @@ function Dashboard() {
                     <h3 className="tournament-bracket__round-title">Semifinals</h3>
                     <ul className="tournament-bracket__list px-0 bg-card">
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-20">12 April 2021</time>
+                              <time dateTime="1998-02-20">12 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
@@ -1133,10 +1133,10 @@ function Dashboard() {
                       </li>
 
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-20">12 April 2021</time>
+                              <time dateTime="1998-02-20">12 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
@@ -1207,10 +1207,10 @@ function Dashboard() {
                     </h3>
                     <ul className="tournament-bracket__list px-0 bg-card">
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-21">22 April 2021</time>
+                              <time dateTime="1998-02-21">22 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
@@ -1288,10 +1288,10 @@ function Dashboard() {
                     </h3>
                     <ul className="tournament-bracket__list px-0 bg-card">
                       <li className="tournament-bracket__item bg-none ps-0">
-                        <div className="tournament-bracket__match bg-none" tabindex="0">
+                        <div className="tournament-bracket__match bg-none" tabIndex="0">
                           <table className="tournament-bracket__table">
                             <caption className="tournament-bracket__caption">
-                              <time datetime="1998-02-22">23 April 2021</time>
+                              <time dateTime="1998-02-22">23 April 2021</time>
                             </caption>
                             <thead className="sr-only">
                               <tr>
